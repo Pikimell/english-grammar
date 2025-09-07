@@ -1,0 +1,304 @@
+/* Global styles for English pages */
+:root {
+  --bg: #f7f9fc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --brand: #2563eb;
+  --brand-600: #1d4ed8;
+  --border: #e5e7eb;
+  --table-border: #00837f;
+  /* Vibrant gradients */
+  --g1a: #7c3aed; /* purple */
+  --g1b: #06b6d4; /* cyan */
+  --g2a: #ef4444; /* red */
+  --g2b: #f59e0b; /* amber */
+  --g3a: #10b981; /* emerald */
+  --g3b: #3b82f6; /* blue */
+  --g4a: #f472b6; /* pink */
+  --g4b: #22c55e; /* green */
+  --g5a: #a78bfa; /* violet */
+  --g5b: #fb7185; /* rose */
+  --g6a: #06b6d4; /* cyan */
+  --g6b: #f59e0b; /* amber */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 20px;
+  margin: 0;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text);
+  /* Animated, subtle background gradient */
+  background: linear-gradient(120deg, #f5f7fb, #eef2f7, #f6f9ff);
+  background-size: 160% 160%;
+  animation: bgShift 18s ease infinite;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@keyframes bgShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Make standalone content blocks behave like a container
+   Many pages place content tables in top-level <div> or <app-text>
+   after the header container. Apply the same max-width and centering
+   so those blocks align with the main container without changing HTML. */
+app-text {
+  display: block;
+}
+
+/* Top-level blocks that are not the .container itself */
+body > div:not(.container):not(.nav),
+body > app-text {
+  margin: 0 auto;
+  padding: 24px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0 0 6px;
+  background: linear-gradient(90deg, var(--g1a), var(--g1b));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+hr.sep {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 12px 0 20px;
+}
+
+section {
+  margin: 18px 0 26px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin: 0 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  height: 8px;
+  width: 56px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--g2a), var(--g2b));
+}
+
+.link-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.link-grid a {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 14px;
+  padding: 14px 16px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+  /* Make all cards equal height across the grid */
+  min-height: clamp(116px, 13vw, 170px);
+  /* Prevent layout shift from long titles */
+  word-break: break-word;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+/* Gradient glow layer */
+.link-grid a::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: linear-gradient(135deg, var(--g1a), var(--g1b));
+  filter: blur(14px);
+  opacity: 0.35;
+}
+
+/* Alternate gradients per item for a colorful look */
+.link-grid li:nth-child(6n + 1) a::before {
+  background: linear-gradient(135deg, var(--g1a), var(--g1b));
+}
+.link-grid li:nth-child(6n + 2) a::before {
+  background: linear-gradient(135deg, var(--g2a), var(--g2b));
+}
+.link-grid li:nth-child(6n + 3) a::before {
+  background: linear-gradient(135deg, var(--g3a), var(--g3b));
+}
+.link-grid li:nth-child(6n + 4) a::before {
+  background: linear-gradient(135deg, var(--g4a), var(--g4b));
+}
+.link-grid li:nth-child(6n + 5) a::before {
+  background: linear-gradient(135deg, var(--g5a), var(--g5b));
+}
+.link-grid li:nth-child(6n + 6) a::before {
+  background: linear-gradient(135deg, var(--g6a), var(--g6b));
+}
+
+.link-grid a:hover {
+  transform: translateY(-2px) scale(1.01);
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  background: linear-gradient(90deg, var(--g3a), var(--g3b));
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin-left: 6px;
+}
+
+a.back {
+  color: var(--brand);
+}
+
+a.back:hover {
+  color: var(--brand-600);
+}
+
+/* Nav buttons */
+.nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+  background: linear-gradient(90deg, var(--g1a), var(--g1b));
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease,
+    transform 0.12s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.95);
+}
+
+.btn.primary {
+  background: linear-gradient(90deg, var(--g2a), var(--g2b));
+  color: #fff;
+  border-color: transparent;
+}
+
+.btn.primary:hover {
+  filter: brightness(0.95);
+}
+
+/* Typography */
+p {
+  margin: 0 0 10px;
+}
+
+/* Table enhancements */
+table {
+  width: 100%;
+  margin: 18px auto 24px; /* center tables inside their block */
+  border: 2px solid var(--table-border) !important; /* visible outer border */
+  border-radius: 25px;
+  overflow: hidden;
+  border-collapse: separate !important;
+}
+tbody {
+  border-radius: 25px;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border: 1.5px solid var(--table-border) !important;
+  vertical-align: top;
+  font-size: 17px;
+}
+
+thead th {
+  background: #fff5f2; /* light coral tint */
+}
+
+/* Utility */
+.mt-2 {
+  margin-top: 8px;
+}
+.mt-3 {
+  margin-top: 12px;
+}
+.mt-4 {
+  margin-top: 16px;
+}
+.muted {
+  color: var(--muted);
+}
