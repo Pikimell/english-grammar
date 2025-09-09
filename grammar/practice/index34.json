@@ -1,0 +1,16 @@
+{
+  "title": "Telling the Time — як казати час",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Оберіть правильний вираз часу",
+      "items":[{"q":"7:30","choices":["half past seven","seven and half"],"answer":["0"]},{"q":"7:15","choices":["quarter past seven","seven quarter"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"to/past",
+      "items":[{"q":"7:45 = quarter ___ eight","answer":["to"]},{"q":"7:05 = five ___ seven","answer":["past"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Напиши 3 різних способи сказати 7:00–8:00",
+      "items":[{"q":"Будь-які.","keywords":["o'clock","past","to","half","quarter"]}]
+    }
+  ]
+}
+

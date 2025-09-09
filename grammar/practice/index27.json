@@ -1,0 +1,16 @@
+{
+  "title": "Wh‑questions — питальні слова",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери Wh-word",
+      "items":[{"q":"___ are you from?","choices":["Where","When"],"answer":["0"]},{"q":"___ time is it?","choices":["What","Which"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Побудуй питання",
+      "items":[{"q":"___ you live? (where)","answer":["where do you live"]},{"q":"___ she do? (what)","answer":["what does she do"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 3 Wh‑питання",
+      "items":[{"q":"Будь-які.","keywords":["who","what","where","when","why","how"]}]
+    }
+  ]
+}
+

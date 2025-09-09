@@ -1,0 +1,16 @@
+{
+  "title": "Comparative & Superlative adjectives",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери форму",
+      "items":[{"q":"fast → ___ (comparative)","choices":["faster","more fast"],"answer":["0"]},{"q":"interesting → ___ (superlative)","choices":["the most interesting","the interestinger"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"than / the ___",
+      "items":[{"q":"Tom is ___ (tall) than Ben.","answer":["taller"]},{"q":"This is ___ (good) movie.","answer":["the best"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правила коротких/довгих прикметників",
+      "items":[{"q":"Ключові слова.","keywords":["-er","more","-est","most","irregular"]}]
+    }
+  ]
+}
+

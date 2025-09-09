@@ -1,0 +1,57 @@
+{
+  "title": "There is / There are",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Obери форму",
+      "items":[
+        {"q":"___ a book on the table.","choices":["There are","There is","Is there"],"answer":["1"]},
+        {"q":"___ any chairs in the room?","choices":["Are there","There are","There is"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"There is / There are / Is there / Are there",
+      "items":[
+        {"q":"___ a cinema near here?","choices":["Is there","Are there"],"answer":["0"]},
+        {"q":"___ any water in the bottle?","choices":["Is there","Are there"],"answer":["0"]},
+        {"q":"___ three chairs in the kitchen.","choices":["There is","There are"],"answer":["1"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Singular/Plural",
+      "items":[
+        {"q":"There ___ (be) two windows.","answer":["are"]},
+        {"q":"There ___ (not be) a TV.","answer":["isn't","is not"]}
+      ]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Однина/множина/заперечення",
+      "items":[
+        {"q":"There ___ (not be) any apples.","answer":["aren't","are not"]},
+        {"q":"There ___ (be) a new supermarket.","answer":["is"]},
+        {"q":"___ there any problems?","answer":["are"]}
+      ]}
+    ,
+    {"id":"order-1","type":"order","prompt":"Побудуй речення",
+      "items":[{"tokens":["there","is","a","park","nearby"],"answer":"there is a park nearby"},{"tokens":["there","are","two","windows"],"answer":"there are two windows"}]
+    },
+    {"id":"short-1","type":"short","prompt":"Опиши кімнату (5 речень)",
+      "items":[{"q":"Використай there is/are, any/some.","keywords":["there is","there are","any","some"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[
+        {"q":"There ___ a lot of traffic today.","choices":["is","are"],"answer":["0"]},
+        {"q":"___ there any sugar?","choices":["Is","Are"],"answer":["0"]},
+        {"q":"There ___n't any milk.","choices":["is","are"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще практика",
+      "items":[
+        {"q":"There ___ some books on the table.","choices":["are","is"],"answer":["0"]},
+        {"q":"___ there a bank near here?","choices":["Is","Are"],"answer":["0"]},
+        {"q":"There ___ no chairs in the room.","choices":["are","is"],"answer":["0"]},
+        {"q":"There ___ a problem with my car.","choices":["is","are"],"answer":["0"]},
+        {"q":"___ there any questions?","choices":["Are","Is"],"answer":["0"]}
+      ]
+    }
+    {"id":"short-1","type":"short","prompt":"Опис кімнати (3 речення)",
+      "items":[{"q":"Використай there is/are.","keywords":["there is","there are","any","some"]}]
+    }
+  ]
+}

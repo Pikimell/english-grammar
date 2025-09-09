@@ -1,0 +1,57 @@
+{
+  "title": "Past Simple vs Present Perfect",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери правильний час",
+      "items":[
+        {"q":"I ___ (finish) my homework. Do you want to check it?","choices":["finished","have finished","am finishing"],"answer":["1"]},
+        {"q":"We ___ (visit) London in 2019.","choices":["have visited","visited","were visiting"],"answer":["1"]},
+        {"q":"She ___ (lose) her keys. She can't open the door.","choices":["lost","has lost","is losing"],"answer":["1"]},
+        {"q":"I ___ (see) that movie last week.","choices":["have seen","saw","seen"],"answer":["1"]},
+        {"q":"He ___ (be) to Italy three times.","choices":["was","has been","has gone"],"answer":["2","1"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Вибери маркер часу",
+      "items":[
+        {"q":"I haven't seen him ___ Monday.","choices":["for","since"],"answer":["1"]},
+        {"q":"She has lived here ___ 5 years.","choices":["for","since"],"answer":["0"]},
+        {"q":"Have you ___ tried sushi?","choices":["ever","never"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав for/since/ever/never та форми",
+      "items":[
+        {"q":"I have lived here ___ 2018.","answer":["since 2018","since"]},
+        {"q":"Have you ___ been to Paris?","answer":["ever"]},
+        {"q":"She has ___ tried sushi.","answer":["never"]},
+        {"q":"We ___ (not finish) yet.","answer":["haven't finished","have not finished"]},
+        {"q":"He ___ (visit) his parents two days ago.","answer":["visited"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Перетвори між часами (збережи сенс)",
+      "items":[
+        {"q":"We finished the report. → (PP)","answer":["we have finished the report."]},
+        {"q":"I have lost my phone. → (PS, вкажи час: yesterday)","answer":["i lost my phone yesterday."]}
+      ]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ помилку",
+      "items":[
+        {"q":"I have seen him yesterday.","answer":["i saw him yesterday."]},
+        {"q":"We didn't went there.","answer":["we didn't go there."]}
+      ]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[
+        {"q":"She ___ (not see) him since Monday.","choices":["hasn't seen","didn't see"],"answer":["0"]},
+        {"q":"___ you ever ___ (try) oysters?","choices":["Did / try","Have / tried"],"answer":["1"]},
+        {"q":"They ___ (move) to NY two years ago.","choices":["moved","have moved"],"answer":["0"]}
+      ]
+    },
+    {"id":"match-1","type":"match","prompt":"Співстав ситуацію з часом",
+      "pairs":[
+        {"left":"Finished time in the past","right":"Past Simple"},
+        {"left":"Life experience (no time)","right":"Present Perfect"},
+        {"left":"Action with present result","right":"Present Perfect"}
+      ]
+    }
+  ]
+}

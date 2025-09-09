@@ -1,0 +1,16 @@
+{
+  "title": "Ordinal Numbers — порядкові числівники",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери правильну форму",
+      "items":[{"q":"1st","choices":["first","one-th"],"answer":["0"]},{"q":"3rd","choices":["thirth","third"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Напиши словами",
+      "items":[{"q":"12th","answer":["twelfth"]},{"q":"22nd","answer":["twenty-second","twenty second"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Скажи дату свого дня народження (словами)",
+      "items":[{"q":"Без персональних даних — формат.","keywords":["on","the","of"]}]
+    }
+  ]
+}
+

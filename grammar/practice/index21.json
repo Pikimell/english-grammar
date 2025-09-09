@@ -1,0 +1,19 @@
+{
+  "title": "Неозначені займенники — some/any/no/every + body/thing/where",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери правильне слово",
+      "items":[
+        {"q":"There is ___ in the fridge.","choices":["anything","something","nothing"],"answer":["1"]},
+        {"q":"I can't find my keys ___.","choices":["somewhere","anywhere","nowhere"],"answer":["1"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав some/any/no/every-",
+      "items":[{"q":"I have ___ to tell you.","answer":["something"]},{"q":"___ called you but didn't leave a message.","answer":["someone"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правила вживання some/any",
+      "items":[{"q":"Ключові ідеї.","keywords":["affirmative","questions","offers","requests"]}]
+    }
+  ]
+}
+

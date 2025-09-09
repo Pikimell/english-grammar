@@ -1,0 +1,55 @@
+{
+  "title": "Past Continuous — тривала дія в минулому",
+  "level": "A2-B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери was/were + Ving",
+      "items":[
+        {"q":"At 7 p.m. yesterday I ___ (cook) dinner.","choices":["was cooking","cooked","am cooking"],"answer":["0"]},
+        {"q":"They ___ (not watch) TV when I called.","choices":["weren't watching","didn't watch","aren't watching"],"answer":["0"]},
+        {"q":"She ___ (walk) to school when it started to rain.","choices":["was walking","walked","is walking"],"answer":["0"]},
+        {"q":"What ___ you ___ (do) at 9 last night?","choices":["were / doing","did / do","are / doing"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"PS vs PC",
+      "items":[
+        {"q":"I ___ (watch) TV when you called.","choices":["was watching","watched"],"answer":["0"]},
+        {"q":"He ___ (break) his leg while he ___ (ski).","choices":["broke / was skiing","was breaking / skied"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"while/when",
+      "items":[
+        {"q":"I was reading ___ he came in.","answer":["when"]},
+        {"q":"___ she was walking home, it started to rain.","answer":["while"]},
+        {"q":"We ___ (have) dinner when the lights went out.","answer":["were having"]},
+        {"q":"She ___ (not listen) when the teacher asked a question.","answer":["wasn't listening","was not listening"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Побудуй запитання/заперечення (PC)",
+      "items":[
+        {"q":"They were playing chess.","answer":["were they playing chess?","were they playing chess"]},
+        {"q":"She was writing an email.","answer":["she wasn't writing an email.","she was not writing an email."]}
+      ]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ помилку",
+      "items":[
+        {"q":"We was walking home.","answer":["we were walking home."]},
+        {"q":"He didn't was listening.","answer":["he wasn't listening."]}
+      ]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання (PC)",
+      "items":[
+        {"q":"When I arrived, they ___ (have) lunch.","choices":["were having","had"],"answer":["0"]},
+        {"q":"She ___ (not sleep) at 11 last night.","choices":["wasn't sleeping","didn't sleep"],"answer":["0"]},
+        {"q":"What ___ you ___ (do) when the phone rang?","choices":["were / doing","did / do"],"answer":["0"]},
+        {"q":"He ___ (drive) too fast when he crashed.","choices":["was driving","drove"],"answer":["0"]},
+        {"q":"We ___ (watch) TV while mom ___ (cook).","choices":["were watching / was cooking","watched / cooked"],"answer":["0"]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення (PC)",
+      "items":[{"tokens":["was","she","reading","a","book"],"answer":"she was reading a book"},{"tokens":["they","were","not","sleeping"],"answer":"they were not sleeping"}]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли вживаємо Past Continuous?",
+      "items":[{"q":"Дай коротке пояснення.","keywords":["in progress","past","specific time","while","when"]}]
+    }
+  ]
+}

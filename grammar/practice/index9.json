@@ -1,0 +1,53 @@
+{
+  "title": "Second Conditional — if + Past, would + V",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери правильний варіант",
+      "items":[
+        {"q":"If I ___ (be) you, I ___ (take) the job.","choices":["was / would take","were / will take","were / would take"],"answer":["2"]},
+        {"q":"We ___ (travel) more if we ___ (have) more money.","choices":["would travel / had","will travel / have","travel / had"],"answer":["0"]},
+        {"q":"If he ___ (not be) so busy, he ___ (help) us.","choices":["weren't / would help","wasn't / will help"],"answer":["0"]},
+        {"q":"If she ___ (know) the answer, she ___ (tell) you.","choices":["knew / would tell","knows / will tell"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Were vs was у порадах",
+      "items":[{"q":"If I ___ you, I'd apologize.","choices":["was","were"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав правильні форми",
+      "items":[
+        {"q":"If she ___ (know) his number, she ___ (call) him.","answer":["knew / would call"]},
+        {"q":"I ___ (help) you if I ___ (can).","answer":["would help / could"]},
+        {"q":"If they ___ (have) more time, they ___ (travel) more.","answer":["had / would travel"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Перефразуй у 2nd Conditional",
+      "items":[
+        {"q":"I don't have a car, so I don't drive to work.","answer":["if i had a car, i would drive to work."]},
+        {"q":"She isn't free; she can't join us.","answer":["if she were free, she would join us."]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення",
+      "items":[{"tokens":["if","i","were","you","i","would","study","more"],"answer":"if i were you i would study more"}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові речення",
+      "items":[
+        {"q":"If we ___ (live) near the sea, we ___ (go) to the beach more often.","choices":["lived / would go","live / will go"],"answer":["0"]},
+        {"q":"If I ___ (win) the lottery, I ___ (travel) the world.","choices":["won / would travel","win / will travel"],"answer":["0"]},
+        {"q":"If he ___ (be) taller, he ___ (play) basketball.","choices":["were / would play","was / will play"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще практики",
+      "items":[
+        {"q":"If I ___ (have) more time, I ___ (learn) Spanish.","choices":["had / would learn","have / will learn"],"answer":["0"]},
+        {"q":"If it ___ (not rain), we ___ (have) a picnic.","choices":["didn't rain / would have","doesn't rain / will have"],"answer":["0"]},
+        {"q":"If she ___ (be) rich, she ___ (buy) a big house.","choices":["were / would buy","was / will buy"],"answer":["0"]},
+        {"q":"If they ___ (know) the answer, they ___ (tell) us.","choices":["knew / would tell","know / will tell"],"answer":["0"]},
+        {"q":"If you ___ (work) harder, you ___ (get) better results.","choices":["worked / would get","work / will get"],"answer":["0"]},
+        {"q":"If we ___ (live) closer, we ___ (meet) more often.","choices":["lived / would meet","live / will meet"],"answer":["0"]}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли вживаємо 2nd Conditional?",
+      "items":[{"q":"Ключові слова.","keywords":["unreal","present","advice","if i were you"]}]
+    }
+  ]
+}

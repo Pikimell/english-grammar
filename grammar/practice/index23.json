@@ -1,0 +1,16 @@
+{
+  "title": "Like / Love / Hate + Ving",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Вибери форму",
+      "items":[{"q":"I enjoy ___ (read).","choices":["to read","reading"],"answer":["1"]},{"q":"She hates ___ (get) up early.","choices":["getting","to getting"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"to V / Ving",
+      "items":[{"q":"I like ___ (cook) Italian food.","answer":["cooking"]},{"q":"They love ___ (travel).","answer":["travelling","traveling"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 3 речення з like/love/hate + Ving",
+      "items":[{"q":"Будь-які.","keywords":["like","love","hate","-ing"]}]
+    }
+  ]
+}
+

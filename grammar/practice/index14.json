@@ -1,0 +1,59 @@
+{
+  "title": "This / That / These / Those",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Вкажи правильний вказівний займенник",
+      "items":[
+        {"q":"___ is my phone (near).","choices":["This","That","These"],"answer":["0"]},
+        {"q":"___ are my friends (far, plural).","choices":["This","Those","These"],"answer":["1"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Near/Far + singular/plural",
+      "items":[
+        {"q":"___ is my desk (far).","choices":["That","This"],"answer":["0"]},
+        {"q":"___ are your shoes (near, plural).","choices":["These","Those"],"answer":["0"]},
+        {"q":"___ is not my bag (far).","choices":["That","This"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Singular/Plural",
+      "items":[
+        {"q":"___ (ці) books are interesting.","answer":["These"]},
+        {"q":"I like ___ (той) idea.","answer":["that"]}
+      ]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Встав відповідний займенник",
+      "items":[{"q":"I like ___ (оці) pictures.","answer":["these"]},{"q":"___ (та) car is expensive.","answer":["that"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Побудуй речення",
+      "items":[{"tokens":["this","is","my","house"],"answer":"this is my house"},{"tokens":["those","are","our","friends"],"answer":"those are our friends"}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 4 речення з this/that/these/those",
+      "items":[{"q":"Near/far, однина/множина.","keywords":["this","that","these","those"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[{"q":"___ are not my books (near).","choices":["These","Those"],"answer":["0"]},{"q":"___ is our school (far).","choices":["This","That"],"answer":["1"]},{"q":"Whose shoes are ___? (near)","choices":["these","those"],"answer")["0"]}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще практика",
+      "items":[
+        {"q":"___ is my friend (near).","choices":["This","That"],"answer":["0"]},
+        {"q":"___ are my parents (far).","choices":["These","Those"],"answer":["1"]},
+        {"q":"___ is not your phone (near).","choices":["This","That"],"answer":["0"]},
+        {"q":"___ are his keys (near).","choices":["These","Those"],"answer":["0"]},
+        {"q":"What is ___? (far)","choices":["that","this"],"answer":["0"]},
+        {"q":"Who are ___? (near)","choices":["these","those"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Встав this/that/these/those",
+      "items":[{"q":"___ (ті) are my books.","answer":["those"]},{"q":"___ (ця) is a great idea.","answer":["this"]},{"q":"___ (ці) are beautiful flowers.","answer":["these"]}]
+    },
+    {"id":"mcq-5","type":"mcq","prompt":"Ще 2 приклади",
+      "items":[{"q":"___ is my laptop (near).","choices":["This","That"],"answer":["This"]},{"q":"___ are mountains (far).","choices":["These","Those"],"answer":["Those"]},{"q":"___ is my teacher (far).","choices":["That","This"],"answer":["That"]},{"q":"Whose are ___? (near)","choices":["these","those"],"answer":["these"]},{"q":"___ are my classmates (near).","choices":["These","Those"],"answer":["These"]},{"q":"___ is our car (near).","choices":["This","That"],"answer":["This"]}]
+    },
+    {"id":"mcq-6","type":"mcq","prompt":"+1 приклад",
+      "items":[{"q":"___ is my house (far).","choices":["That","This"],"answer":["That"]}]
+    }
+    {"id":"short-1","type":"short","prompt":"Зроби 2 речення зі this/that/these/those",
+      "items":[{"q":"Використай near/far.","keywords":["this","that","these","those"]}]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "How often? How much/many?",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"How much / How many",
+      "items":[{"q":"___ sugar do you want?","choices":["How many","How much"],"answer":["1"]},{"q":"___ books do you read a month?","choices":["How much","How many"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"often/sometimes/never",
+      "items":[{"q":"How ___ do you exercise?","answer":["often"]},{"q":"I ___ drink coffee.","answer":["never","rarely","sometimes"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Створи 2 питання з How much/many",
+      "items":[{"q":"Будь-які.","keywords":["how much","how many"]}]
+    }
+  ]
+}
+

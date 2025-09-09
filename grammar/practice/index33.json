@@ -1,0 +1,16 @@
+{
+  "title": "Dates — дати і прийменники",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Прийменники з датами",
+      "items":[{"q":"___ Monday","choices":["on","in","at"],"answer":["0"]},{"q":"___ July","choices":["on","in","at"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Напиши дату словами",
+      "items":[{"q":"01/03","answer":["the first of March","March first"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"3 речення з on/in/at + time",
+      "items":[{"q":"Будь-які.","keywords":["on","in","at"]}]
+    }
+  ]
+}
+

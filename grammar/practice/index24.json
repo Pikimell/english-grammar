@@ -1,0 +1,16 @@
+{
+  "title": "Have got — володіння",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"have got / has got",
+      "items":[{"q":"She ___ a cat.","choices":["has got","have got"],"answer":["0"]},{"q":"___ you got a minute?","choices":["Have","Has"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Ствердження/заперечення/питання",
+      "items":[{"q":"I ___ (not) a car.","answer":["haven't got","have not got"]},{"q":"___ he got any brothers?","answer":["has"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"3 речення з have got",
+      "items":[{"q":"Будь-які.","keywords":["have got","has got"]}]
+    }
+  ]
+}
+

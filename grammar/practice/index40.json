@@ -1,0 +1,16 @@
+{
+  "title": "Too / Enough — ступінь та достатність",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"too / enough",
+      "items":[{"q":"It is ___ cold to swim.","choices":["too","enough"],"answer":["0"]},{"q":"She isn't old ___ to drive.","choices":["too","enough"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Побудуй фрази",
+      "items":[{"q":"The bag is ___ heavy (I can't carry).","answer":["too"]},{"q":"We have ___ time (to finish).","answer":["enough"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Поясни позицію enough",
+      "items":[{"q":"Перед/після?","keywords":["after adjective","before noun"]}]
+    }
+  ]
+}
+

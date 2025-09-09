@@ -1,0 +1,16 @@
+{
+  "title": "Prepositions of Place — місцезнаходження",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"in/on/under/next to/between/opposite",
+      "items":[{"q":"The cat is ___ the table (під).","choices":["under","on"],"answer":["0"]},{"q":"The bank is ___ the post office and the cafe.","choices":["between","opposite"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав прийменник",
+      "items":[{"q":"The school is ___ the park.","answer":["next to","near"]},{"q":"The museum is ___ the hotel (навпроти).","answer":["opposite"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Опиши шлях (2 речення)",
+      "items":[{"q":"Використай 2 прийменники.","keywords":["go past","next to","between","opposite"]}]
+    }
+  ]
+}
+

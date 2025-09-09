@@ -1,0 +1,54 @@
+{
+  "title": "Присвійні займенники — Possessive",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"my/mine, your/yours ...",
+      "items":[
+        {"q":"This is ___ book. The book is ___.","choices":["my / mine","mine / my"],"answer":["0"]},
+        {"q":"Is this seat ___? — Yes, it's ___.","choices":["your / your","yours / mine"],"answer":["1"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Choose possessive",
+      "items":[{"q":"Is this book ___? — Yes, it's ___. (she)","choices":["her / her","hers / hers","hers / hers is","hers / hers."],"answer":["1"]},{"q":"These are ___ shoes. (we)","choices":["our","ours"],"answer":["0"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Fill in",
+      "items":[{"q":"The red car is ___. (they)","answer":["theirs"]},{"q":"Is this pen ___ or ___? (you / I)","answer":["yours or mine","yours/mine"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Build sentences",
+      "items":[{"tokens":["this","house","is","ours"],"answer":"this house is ours"},{"tokens":["is","this","yours","?"],"answer":"is this yours?"}]
+    },
+    {"id":"short-2","type":"short","prompt":"my vs mine — 2 приклади",
+      "items":[{"q":"Поясни коротко.","keywords":["before noun","independent"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"More practice",
+      "items":[{"q":"Is this ___ car? — Yes, it's ___. (they)","choices":["their / theirs","theirs / their"],"answer":["0"]},{"q":"This is ___ house. (we)","choices":["our","ours"],"answer":["0"]},{"q":"Whose bag is this? — It's ___. (I)","choices":["mine","my"],"answer")["mine"]}]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Fill in",
+      "items":[{"q":"The tickets are ___. (you)","answer":["yours"]},{"q":"Those are ___ seats. (they)","answer")["theirs"]},{"q":"Is this ___ or ___? (she / you)","answer")["hers or yours"]},{"q":"This pen is ___. (he)","answer")["his"]},{"q":"The house is ___. (we)","answer")["ours"]}]
+    },
+    {"id":"order-2","type":"order","prompt":"Build sentences",
+      "items":[{"tokens":["is","this","book","yours","?"],"answer":"is this book yours?"},{"tokens":["these","are","ours"],"answer":"these are ours"}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Finish to 20",
+      "items":[
+        {"q":"Is this pen ___? — No, it's ___. (we / they)","choices":["ours / theirs","our / their"],"answer":["0"]},
+        {"q":"These tickets are ___. (you)","choices":["your","yours"],"answer":["1"]},
+        {"q":"Is that car ___? (she)","choices":["hers","her"],"answer":["0"]},
+        {"q":"Whose phone is this? — It's ___. (he)","choices":["his","him"],"answer":["0"]},
+        {"q":"Is this seat ___? (they)","choices":["their","theirs"],"answer":["1"]},
+        {"q":"This is ___ room. (we)","choices":["our","ours"],"answer":["0"]},
+        {"q":"Are these books ___? (you)","choices":["your","yours"],"answer":["1"]},
+        {"q":"Is this coat ___? (I)","choices":["my","mine"],"answer":["1"]},
+        {"q":"Those seats are ___. (we)","choices":["ours","our"],"answer":["0"]},
+        {"q":"Is this dog ___? (they)","choices":["theirs","their"],"answer":["1","0"]},
+        {"q":"Are these keys ___? (she)","choices":["her","hers"],"answer":["1"]}
+      ]
+    }
+    {"id":"gap-1","type":"gap","prompt":"Встав форму",
+      "items":[{"q":"That car is ___. (we)","answer":["ours"]},{"q":"These keys are ___. (he)","answer":["his"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Поясни різницю my vs mine",
+      "items":[{"q":"Коротко.","keywords":["before noun","independent"]}]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Об’єктні займенники — Object Pronouns",
+  "level": "A1",
+  "tasks": [
+    {"id":"match-1","type":"match","prompt":"Співстав підмет ↔ об’єкт",
+      "pairs":[
+        {"left":"I","right":"me"},
+        {"left":"she","right":"her"},
+        {"left":"they","right":"them"}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Choose object pronoun",
+      "items":[{"q":"She knows ___. (we)","choices":["we","us"],"answer":["1"]},{"q":"He called ___. (she)","choices":["her","she"],"answer":["0"]},{"q":"Can you hear ___? (me)","choices":["I","me"],"answer":["1"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Insert object pronouns",
+      "items":[{"q":"Do you know ___? (they)","answer":["them"]},{"q":"Please tell ___ the truth. (I)","answer":["me"]},{"q":"She invited ___. (we)","answer":["us"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Build sentences",
+      "items":[{"tokens":["can","you","help","me","?"],"answer":"can you help me?"},{"tokens":["i","don't","know","him"],"answer":"i don't know him"}]
+    },
+    {"id":"short-2","type":"short","prompt":"Make 4 sentences with object pronouns",
+      "items":[{"q":"Будь-які.","keywords":["me","you","him","her","us","them"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"More practice",
+      "items":[{"q":"Do you see ___? (they)","choices":["they","them"],"answer":["1"]},{"q":"Tell ___ the story. (us)","choices":["we","us"],"answer")["1"]},{"q":"I called ___ yesterday. (she)","choices")["her","she"],"answer")["0"]},{"q":"He didn't invite ___. (me)","choices")["I","me"],"answer")["1"]}]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Fill in",
+      "items":[{"q":"Can you hear ___? (me)","answer":["me"]},{"q":"I don't know ___. (him)","answer")["him"]},{"q":"Please call ___. (them)","answer")["them"]},{"q":"She thanked ___. (us)","answer")["us"]},{"q":"Do you remember ___. (her)","answer")["her"]},{"q":"He saw ___. (me)","answer")["me"]}]
+    },
+    {"id":"order-2","type":"order","prompt":"Build sentences",
+      "items":[{"tokens":["i","can","hear","you"],"answer":"i can hear you"},{"tokens":["he","didn't","invite","us"],"answer":"he didn't invite us"}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Finish to 20",
+      "items":[
+        {"q":"She told ___ the truth. (me)","choices":["me","I"],"answer":["0"]},
+        {"q":"Do you see ___? (them)","choices":["they","them"],"answer":["1"]},
+        {"q":"Please give ___ a hand. (us)","choices":["us","we"],"answer":["0"]},
+        {"q":"He didn't call ___. (her)","choices":["she","her"],"answer":["1"]},
+        {"q":"I don't know ___. (him)","choices":["he","him"],"answer":["1"]},
+        {"q":"Can you help ___? (me)","choices":["I","me"],"answer":["1"]},
+        {"q":"She smiled at ___. (us)","choices":["we","us"],"answer":["1"]},
+        {"q":"He listened to ___. (them)","choices":["they","them"],"answer":["1"]},
+        {"q":"Please wait for ___. (me)","choices":["I","me"],"answer":["1"]},
+        {"q":"The teacher asked ___. (us)","choices":["we","us"],"answer":["1"]},
+        {"q":"Do you remember ___. (her)","choices":["she","her"],"answer":["1"]},
+        {"q":"Please tell ___ the time. (me)","choices":["I","me"],"answer":["1"]},
+        {"q":"She looked at ___. (him)","choices":["he","him"],"answer":["1"]}
+      ]
+    }
+    {"id":"gap-1","type":"gap","prompt":"Встав об’єктний займенник",
+      "items":[{"q":"I know ___. (he)","answer":["him"]},{"q":"Can you help ___? (we)","answer":["us"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 2 речення з об’єктними займенниками",
+      "items":[{"q":"Будь-які.","keywords":["me","you","him","her","us","them"]}]
+    }
+  ]
+}

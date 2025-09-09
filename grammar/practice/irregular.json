@@ -1,0 +1,51 @@
+{
+  "title": "Irregular Verbs — Неправильні дієслова",
+  "level": "A2-B1",
+  "tasks": [
+    {"id":"match-1","type":"match","prompt":"Співстав V1 ↔ V2",
+      "pairs":[
+        {"left":"go","right":"went"},
+        {"left":"see","right":"saw"},
+        {"left":"take","right":"took"}
+      ]
+    },
+    {"id":"mcq-1","type":"mcq","prompt":"Choose the correct form",
+      "items":[{"q":"go → V2?","choices":["went","gone"],"answer":["0"]},{"q":"see → V3?","choices":["saw","seen"],"answer":["1"]},{"q":"take → V2?","choices":["taked","took"],"answer":["1"]},{"q":"write → V3?","choices":["writed","written"],"answer":["1"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Fill V2/V3",
+      "items":[{"q":"He ___ (write) a letter yesterday.","answer":["wrote"]},{"q":"She has ___ (take) my pen.","answer":["taken"]},{"q":"We ___ (see) him last week.","answer":["saw"]},{"q":"They have ___ (go) home.","answer":["gone"]}]
+    },
+    {"id":"short-2","type":"short","prompt":"List 10 irregular verbs (V1–V2–V3)",
+      "items":[{"q":"Наприклад.","keywords":["go/went/gone","see/saw/seen","take/took/taken","write/wrote/written","come/came/come"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"More irregulars",
+      "items":[
+        {"q":"come → V2?","choices":["came","come"],"answer":["0"]},
+        {"q":"begin → V3?","choices":["begun","began"],"answer":["0"]},
+        {"q":"give → V2?","choices":["gave","given"],"answer":["0"]},
+        {"q":"drink → V3?","choices":["drank","drunk"],"answer":["1"]},
+        {"q":"eat → V2?","choices":["ate","eaten"],"answer":["0"]},
+        {"q":"break → V3?","choices":["broken","broke"],"answer":["0"]},
+        {"q":"buy → V2?","choices":["bought","buyed"],"answer":["0"]},
+        {"q":"feel → V3?","choices":["felt","feeled"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Finish to 20",
+      "items":[
+        {"q":"swim → V2?","choices":["swam","swum"],"answer":["0"]},
+        {"q":"swim → V3?","choices":["swam","swum"],"answer":["1"]},
+        {"q":"run → V2?","choices":["ran","run"],"answer":["0"]},
+        {"q":"run → V3?","choices":["ran","run"],"answer":["1"]},
+        {"q":"sing → V2?","choices":["sang","sung"],"answer":["0"]},
+        {"q":"sing → V3?","choices":["sang","sung"],"answer":["1"]},
+        {"q":"ride → V2?","choices":["rode","ridden"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Заповни формами V2/V3",
+      "items":[{"q":"I have ___ (see) this film.","answer":["seen"]},{"q":"They ___ (go) home early yesterday.","answer":["went"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Випиши 5 пар V1–V2–V3",
+      "items":[{"q":"Зі списку.","keywords":["go/went/gone","see/saw/seen","take/took/taken"]}]
+    }
+  ]
+}

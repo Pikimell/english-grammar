@@ -1,0 +1,53 @@
+{
+  "title": "Присвійні конструкції — 's / of",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"'s чи of",
+      "items":[
+        {"q":"the ___ (my brother) car","choices":["my brother's","car of my brother"],"answer":["0"]},
+        {"q":"the ___ (roof / the house)","choices":["house's roof","roof of the house"],"answer":["1"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"'s / of у фразах",
+      "items":[{"q":"the ___ (parents / my friend) house","choices":["my friend's parents' house","house of my friend's parents"],"answer":["0"]},{"q":"the ___ (the city / name)","choices":["city's name","name of the city"],"answer":["1"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Встав форму",
+      "items":[{"q":"the ___ (roof / the car)","answer":["roof of the car"]},{"q":"___ (John) sister's phone","answer":["john's sister's phone"]},{"q":"___ (a week) work","answer":["a week's work"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Побудуй фрази",
+      "items":[{"tokens":["the","end","of","the","day"],"answer":"the end of the day"},{"tokens":["my","brother's","car"],"answer":"my brother's car"}]
+    },
+    {"id":"short-2","type":"short","prompt":"Стисло: 's vs of",
+      "items":[{"q":"Коли що?","keywords":["people","animals","time","things","long phrase"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[{"q":"two ___ (hours) drive","choices":["hours'","hour's"],"answer":["0"]},{"q":"the ___ (name / my cat)","choices":["name of my cat","my cat's name"],"answer")["1"]},{"q":"the ___ (end / the film)","choices")["film's end","end of the film"],"answer")["1"]}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще практика",
+      "items":[
+        {"q":"the ___ (door / the car)","choices":["car's door","door of the car"],"answer":["0","1"]},
+        {"q":"the ___ (children / my sister)","choices":["my sister's children","children of my sister"],"answer":["0"]},
+        {"q":"a ___ (day / work)","choices":["day's work","work's day"],"answer":["0"]},
+        {"q":"the ___ (bottom / the page)","choices":["bottom of the page","page's bottom"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-5","type":"mcq","prompt":"Доведи до 20",
+      "items":[
+        {"q":"the ___ (capital / France)","choices":["capital of France","France's capital"],"answer":["0","1"]},
+        {"q":"the ___ (brother / Anna)","choices":["Anna's brother","brother of Anna"],"answer":["0"]},
+        {"q":"the ___ (name / this street)","choices":["name of this street","this street's name"],"answer":["0"]},
+        {"q":"a ___ (week / holiday)","choices":["week's holiday","holiday's week"],"answer":["0"]},
+        {"q":"the ___ (top / the mountain)","choices":["top of the mountain","mountain's top"],"answer":["0"]},
+        {"q":"the ___ (end / the story)","choices":["end of the story","story's end"],"answer":["0"]},
+        {"q":"the ___ (parents / my friend)","choices":["my friend's parents","parents of my friend"],"answer":["0"]},
+        {"q":"two ___ (days) work","choices":["days'","day's"],"answer":["0"]}
+      ]
+    }
+    {"id":"gap-1","type":"gap","prompt":"Встав форму",
+      "items":[{"q":"___ (Julia) bike","answer":["Julia's bike"]},{"q":"the ___ (name / the company)","answer":["name of the company"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли 's, коли of?",
+      "items":[{"q":"Дай правило.","keywords":["people","animals","time","things","long phrases"]}]
+    }
+  ]
+}

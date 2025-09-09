@@ -1,0 +1,55 @@
+{
+  "title": "Плани — Going to vs Present Continuous",
+  "level": "A2-B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери going to / Present Continuous",
+      "items":[
+        {"q":"I ___ (meet) Tom at 6. We fixed the time yesterday.","choices":["am going to meet","am meeting","will meet"],"answer":["1"]},
+        {"q":"Look at those clouds! It ___ rain.","choices":["is going to","is raining","will"],"answer":["0"]},
+        {"q":"We ___ (have) dinner with Kate tonight (arranged).","choices":["are having","are going to have"],"answer":["0"]},
+        {"q":"I ___ (start) a new hobby next month (intention).","choices":["am going to start","am starting"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Вибери ситуацію",
+      "items":[
+        {"q":"We bought tickets. We ___ fly at 9 p.m.","choices":["are flying","are going to fly"],"answer":["0"]},
+        {"q":"Watch out! You ___ drop it.","choices":["are going to","will"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав форму",
+      "items":[
+        {"q":"We ___ (visit) grandma this Sunday (arranged).","answer":["are visiting"]},
+        {"q":"I'm hungry. I'm ___ (make) a sandwich.","answer":["going to make"]},
+        {"q":"She ___ (meet) her boss at 10 (fixed).","answer":["is meeting"]},
+        {"q":"He ___ (not buy) a car this year (plan).","answer":["is not going to buy","isn't going to buy"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Перефразуйте (go to / PC)",
+      "items":[
+        {"q":"We plan to move to Spain next year.","answer":["we are going to move to spain next year."]},
+        {"q":"We have arranged a meeting for Friday.","answer":["we are meeting on friday."]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення",
+      "items":[{"tokens":["are","we","meeting","tomorrow","at","noon"],"answer":"we are meeting tomorrow at noon"},{"tokens":["i","am","going","to","learn","spanish"],"answer":"i am going to learn spanish"}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[
+        {"q":"She ___ (not come) tonight; she has other plans (arranged).","choices":["isn't coming","isn't going to come"],"answer":["0"]},
+        {"q":"He ___ (visit) the dentist next week (arranged).","choices":["is visiting","is going to visit"],"answer":["0"]},
+        {"q":"I'm thirsty. I ___ (get) some water.","choices":["will get","am getting"],"answer":["0"]},
+        {"q":"She's packed her bags. She ___ (leave) early tomorrow (plan).","choices":["is going to leave","is leaving"],"answer":["0","1"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще трохи практики",
+      "items":[
+        {"q":"We ___ (meet) at 7 — it's in the calendar.","choices":["are meeting","are going to meet"],"answer":["0"]},
+        {"q":"I'm cold. I ___ (close) the window.","choices":["will close","am closing"],"answer":["0"]},
+        {"q":"He ___ (start) jogging next week (decision now).","choices":["will start","is starting"],"answer":["0"]}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Різниця між going to та PC для майбутнього",
+      "items":[{"q":"2-3 маркери.","keywords":["arrangement","intention","evidence"]}]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Past Simple — was/were та інші дієслова",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери правильну форму",
+      "items":[
+        {"q":"Mike ___ at school yesterday.","choices":["were","was","is"],"answer":["1"]},
+        {"q":"They ___ him in the morning.","choices":["see","saw","seen"],"answer":["1"]},
+        {"q":"We ___ at home last night.","choices":["was","were","are"],"answer":["1"]},
+        {"q":"She ___ to Paris in 2020.","choices":["goes","went","gone"],"answer":["1"]},
+        {"q":"I ___ a great film yesterday.","choices":["see","saw","seen"],"answer":["1"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Regular/Irregular форми",
+      "items":[
+        {"q":"work → ___","choices":["worked","workt"],"answer":["0"]},
+        {"q":"buy → ___","choices":["buyed","bought"],"answer":["1"]},
+        {"q":"take → ___","choices":["took","taked"],"answer":["0"]},
+        {"q":"study → ___","choices":["studied","studyed"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Заповни пропуски (did/didn't)",
+      "items":[
+        {"q":"She ___ (not work) last summer.","answer":["didn't work"]},
+        {"q":"___ you (visit) your grandma last week?","answer":["did you visit"]},
+        {"q":"We ___ (not see) him yesterday.","answer":["didn't see"]},
+        {"q":"___ they ___ (go) to school on Monday?","answer":["did they go"]},
+        {"q":"He ___ (finish) his homework two hours ago.","answer":["finished"]}
+      ]
+    },
+    {"id":"gap-2","type":"gap","prompt":"to be: was/were/wasn't/weren't",
+      "items":[
+        {"q":"I ___ at the party last night.","answer":["was"]},
+        {"q":"They ___ at home on Sunday.","answer":["were"]},
+        {"q":"She ___ (not) tired yesterday.","answer":["wasn't","was not"]}
+      ]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ помилку",
+      "items":[
+        {"q":"Did you went there?","answer":["did you go there?"]},
+        {"q":"We didn't saw him.","answer":["we didn't see him."]},
+        {"q":"Was they happy?","answer":["were they happy?"]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення (Past Simple)",
+      "items":[
+        {"tokens":["yesterday","visited","I","my","grandparents"],"answer":"i visited my grandparents yesterday"},
+        {"tokens":["they","did","not","go","to","work"],"answer":"they did not go to work"}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Signal words для Past Simple",
+      "items":[{"q":"Назви 3+ приклади.","keywords":["yesterday","last","ago","in","when"]}]
+    }
+  ]
+}

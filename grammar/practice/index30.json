@@ -1,0 +1,16 @@
+{
+  "title": "Short Answers — короткі відповіді",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери коротку відповідь",
+      "items":[{"q":"Do you like pizza?","choices":["Yes, I am.","Yes, I do."],"answer":["1"]},{"q":"Is she at home?","choices":["Yes, she is.","Yes, she does."],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Заповни короткі відповіді",
+      "items":[{"q":"Are they ready? — Yes, ___.","answer":["they are"]},{"q":"Did he call? — No, ___.","answer":["he didn't"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правило форм коротких відповідей",
+      "items":[{"q":"Ключові.","keywords":["auxiliary","subject","do/does/did","be"]}]
+    }
+  ]
+}
+

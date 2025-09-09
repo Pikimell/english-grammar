@@ -1,0 +1,55 @@
+{
+  "title": "Used to — минулі звички та стани",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери used to / didn't use to",
+      "items":[
+        {"q":"I ___ (play) tennis every weekend when I was a kid.","choices":["use to play","used to play","am used to play"],"answer":["1"]},
+        {"q":"She ___ (not drink) coffee, but now she does.","choices":["didn't used to drink","didn't use to drink","wasn't used to drink"],"answer":["1"]},
+        {"q":"We ___ (live) in a small village.","choices":["used to live","use to live"],"answer":["0"]},
+        {"q":"___ you ___ (go) to the gym when you were at school?","choices":["Did / use","Do / use"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав форму",
+      "items":[
+        {"q":"We ___ (live) in Berlin.","answer":["used to live"]},
+        {"q":"___ you ___ (have) long hair?","answer":["did you use to have"]},
+        {"q":"I ___ (not like) vegetables.","answer":["didn't use to like","did not use to like"]},
+        {"q":"She ___ (have) a dog when she was 10.","answer":["used to have"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Перероби на теперішнє (be used to / get used to)",
+      "items":[
+        {"q":"I used to wake up early. (тепер звик)","answer":["i am used to waking up early.","i've got used to waking up early.","i have got used to waking up early."]},
+        {"q":"She didn't use to drive. (зараз звикає)","answer":["she is getting used to driving."]}
+      ]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ помилку",
+      "items":[
+        {"q":"I am used to play tennis.","answer":["i am used to playing tennis."]},
+        {"q":"Did you used to go there?","answer":["did you use to go there?"]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення",
+      "items":[{"tokens":["used","to","I","read","comics"],"answer":"i used to read comics"},{"tokens":["did","not","she","use","to","eat","meat"],"answer":"she did not use to eat meat"}]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Додаткові завдання (used to)",
+      "items":[
+        {"q":"He ___ (not play) football when he was a child.","choices":["didn't use to play","wasn't used to play"],"answer":["0"]},
+        {"q":"She ___ (be) shy, but now she's confident.","choices":["used to be","use to be"],"answer":["0"]},
+        {"q":"I'm not ___ (be) up late — it's difficult now.","choices":["used to staying","used to stay","used to staying up"],"answer":["2"]},
+        {"q":"They ___ (get) early these days (process).","choices":["are getting used to getting up early","get used to get up early"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Ще трохи практики",
+      "items":[
+        {"q":"I ___ (live) by the sea, but now I don't.","choices":["used to live","am used to live"],"answer":["0"]},
+        {"q":"She is ___ (use) working nights.","choices":["used to","use to"],"answer":["0"]},
+        {"q":"They ___ (not) go out much before.","choices":["didn't use to","weren't used to"],"answer":["0"]}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Поясни різницю used to vs be used to",
+      "items":[{"q":"Дай коротке пояснення.","keywords":["past habit","state","be used to","accustomed"]}]
+    }
+  ]
+}

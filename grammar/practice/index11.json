@@ -1,0 +1,56 @@
+{
+  "title": "Passive Voice — загальна форма і вживання",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Active → Passive",
+      "items":[
+        {"q":"They make cars in Japan.","choices":["Cars are made in Japan.","Cars were made in Japan.","Cars are making in Japan."],"answer":["0"]},
+        {"q":"Someone stole my bike.","choices":["My bike was stolen.","My bike is stolen."],"answer":["0"]},
+        {"q":"People speak English here.","choices":["English is spoken here.","English was spoken here."],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Tense in passive",
+      "items":[
+        {"q":"The work ___ (finish) by 5 pm tomorrow.","choices":["will be finished","is finished"],"answer":["0"]},
+        {"q":"The room ___ (clean) every day.","choices":["is cleaned","was cleaned"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Be + V3",
+      "items":[
+        {"q":"The letter ___ (send) yesterday.","answer":["was sent"]},
+        {"q":"Many apps ___ (use) worldwide.","answer":["are used"]},
+        {"q":"This cake ___ (make) by my mom.","answer":["was made"]},
+        {"q":"The results ___ (publish) next week.","answer":["will be published"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Active → Passive",
+      "items":[
+        {"q":"They will announce the winners tomorrow.","answer":["the winners will be announced tomorrow."]},
+        {"q":"Someone has broken the window.","answer":["the window has been broken."]}
+      ]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ помилку",
+      "items":[
+        {"q":"The letters were send yesterday.","answer":["the letters were sent yesterday."]},
+        {"q":"This book is write by a famous author.","answer":["this book is written by a famous author."]}
+      ]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання",
+      "items":[
+        {"q":"The problem ___ (solve) already.","choices":["has been solved","was solved"],"answer":["0"]},
+        {"q":"The tickets ___ (sell) online tomorrow.","choices":["will be sold","are sold"],"answer":["0"]},
+        {"q":"The house ___ (build) in 1990.","choices":["was built","is built"],"answer":["0"]},
+        {"q":"Coffee ___ (grow) in Brazil.","choices":["is grown","was grown"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще трохи пасиву",
+      "items":[
+        {"q":"The report ___ (send) by email yesterday.","choices":["was sent","is sent"],"answer":["0"]},
+        {"q":"This product ___ (make) in Germany.","choices":["is made","was made"],"answer":["0"]}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли вживаємо пасив?",
+      "items":[{"q":"Ключові ідеї.","keywords":["focus on object","unknown agent","by"]}]
+    }
+  ]
+}

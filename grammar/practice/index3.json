@@ -1,0 +1,100 @@
+{
+  "title": "Modal verbs — can, must, have to, should",
+  "level": "B1",
+  "tasks": [
+    {
+      "id": "mcq-1",
+      "type": "mcq",
+      "prompt": "Обери правильний варіант (1 відповідь)",
+      "items": [
+        {"q":"You ___ wear a helmet on a construction site.","choices":["must","should","can"],"answer":["0"],"explanation":"Офіційна вимога/правило → must."},
+        {"q":"I ___ get up early tomorrow; my train leaves at 7 a.m.","choices":["must","have to","should"],"answer":["1"],"explanation":"Зовнішня необхідність/розклад → have to."},
+        {"q":"You ___ smoke here. It's forbidden.","choices":["don't have to","mustn't","can't"],"answer":["1"],"explanation":"mustn't = заборона."},
+        {"q":"It's a good idea to see a doctor. You ___ see a doctor.","choices":["should","must","have to"],"answer":["0"]},
+        {"q":"Employees ___ wear ID badges in the building.","choices":["have to","should","can"],"answer":["0"]}
+      ]
+    },
+    {
+      "id": "mcq-2",
+      "type": "mcq",
+      "prompt": "Вибери варіант (можливо кілька підходящих)",
+      "items": [
+        {"q":"I ___ finish this report today (strong inner decision).","choices":["must","have to","should"],"answer":["0"]},
+        {"q":"We ___ leave now; the museum closes at 6 (rule).","choices":["have to","must","should"],"answer":["0","1"]},
+        {"q":"You ___ bring a gift, it's not necessary.","choices":["don't have to","mustn't","shouldn't"],"answer":["0"]}
+      ]
+    },
+    {
+      "id": "gap-1",
+      "type": "gap",
+      "prompt": "Заповни пропуски (форма модального)",
+      "items": [
+        {"q":"Marta is a police officer. She ___ wear a uniform.","answer":["has to","must"],"hint":"Правило/інструкція"},
+        {"q":"You ___ bring your ID to the exam.","answer":["must","have to"],"hint":"Необхідність"},
+        {"q":"You ___ pay if you have a membership.","answer":["don't have to"],"hint":"Відсутність необхідності"},
+        {"q":"You ___ go into the garden. It's forbidden.","answer":["mustn't"],"hint":"Заборона"},
+        {"q":"I ___ swim when I was five.","answer":["could"],"hint":"Past ability"},
+        {"q":"___ I open the window? (polite)","answer":["may","can","could"]}
+      ]
+    },
+    {
+      "id": "gap-2",
+      "type": "gap",
+      "prompt": "Перефразуй, використавши потрібний модальний",
+      "items": [
+        {"q":"It's necessary to wear a mask → You ___ wear a mask.","answer":["must","have to"]},
+        {"q":"It's a bad idea to go to bed late → You ___ go to bed late.","answer":["shouldn't"]},
+        {"q":"It's not necessary to come early → You ___ come early.","answer":["don't have to"]}
+      ]
+    },
+    {
+      "id": "transform-1",
+      "type": "transform",
+      "prompt": "Перетвори з підказкою (використай модальний)",
+      "items": [
+        {"q":"It is allowed to park here.","answer":["you can park here."]},
+        {"q":"It is forbidden to enter.","answer":["you mustn't enter."]},
+        {"q":"It's advisable to drink more water.","answer":["you should drink more water."]}
+      ]
+    },
+    {
+      "id": "error-1",
+      "type": "error",
+      "prompt": "Знайди і виправ помилку",
+      "items": [
+        {"q":"You must to be quiet.","answer":["you must be quiet."]},
+        {"q":"He doesn't must work on Sundays.","answer":["he doesn't have to work on sundays."]},
+        {"q":"You shouldn't to eat so much sugar.","answer":["you shouldn't eat so much sugar."]}
+      ]
+    },
+    {
+      "id": "order-1",
+      "type": "order",
+      "prompt": "Склади речення зі слів (модальні)",
+      "items": [
+        {"tokens":["must","you","wear","a","helmet"],"answer":"you must wear a helmet"},
+        {"tokens":["should","he","call","her","today"],"answer":"he should call her today"}
+      ]
+    },
+    {
+      "id": "short-1",
+      "type": "short",
+      "prompt": "Коротка відповідь: поясни різницю must vs have to",
+      "items": [
+        {"q":"1-2 речення і ключові слова.","keywords":["internal necessity","external rule","speaker's opinion","obligation"]}
+      ]
+    },
+    {
+      "id": "match-1",
+      "type": "match",
+      "prompt": "Співстав модальне дієслово з функцією",
+      "pairs": [
+        {"left":"must","right":"strong necessity"},
+        {"left":"should","right":"advice"},
+        {"left":"don't have to","right":"not necessary"},
+        {"left":"mustn't","right":"prohibition"},
+        {"left":"can","right":"permission/ability"}
+      ]
+    }
+  ]
+}

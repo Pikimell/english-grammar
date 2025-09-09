@@ -1,0 +1,52 @@
+{
+  "title": "First Conditional — if + Present, will + V",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Склади правильне речення",
+      "items":[
+        {"q":"If it ___ (rain), we ___ (stay) at home.","choices":["rains / will stay","will rain / stay","rains / stay"],"answer":["0"]},
+        {"q":"I will call you if I ___ (finish) early.","choices":["will finish","finish","finished"],"answer":["1"]},
+        {"q":"If you ___ (not hurry), you ___ (miss) the bus.","choices":["don't hurry / will miss","won't hurry / miss"],"answer":["0"]},
+        {"q":"___ you help me if I need it?","choices":["Will","Do"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав слова",
+      "items":[
+        {"q":"If you study, you ___ (pass).","answer":["will pass"]},
+        {"q":"If she ___ (not eat), she will be hungry.","answer":["doesn't eat"]},
+        {"q":"If we ___ (be) late, they will start without us.","answer":["are"]},
+        {"q":"If it ___ (snow), roads ___ (be) dangerous.","answer":["snows / will be","snows will be"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Перефразуй у First Conditional",
+      "items":[
+        {"q":"Maybe I'll see John later. (if)","answer":["if i see john later, i'll talk to him.","if i see john later, i will talk to him."]},
+        {"q":"We might not have time. (if / have time, we finish)","answer":["if we have time, we will finish."]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Додаткові речення",
+      "items":[
+        {"q":"If you ___ (eat) too much, you ___ (feel) sick.","choices":["eat / will feel","will eat / feel"],"answer":["0"]},
+        {"q":"I'll help you if I ___ (finish) early.","choices":["finish","will finish"],"answer":["0"]},
+        {"q":"If it ___ (not rain), we'll go for a walk.","choices":["doesn't rain","won't rain"],"answer":["0"]},
+        {"q":"If you study, you ___ (get) better results.","choices":["will get","get"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Ще завдання",
+      "items":[
+        {"q":"If you ___ (be) free, we ___ (meet) at 6.","choices":["are / will meet","will be / meet"],"answer":["0"]},
+        {"q":"You ___ (miss) the train if you ___ (not hurry).","choices":["will miss / don't hurry","miss / won't hurry"],"answer":["0"]},
+        {"q":"If the weather ___ (be) bad, we ___ (stay) at home.","choices":["is / will stay","will be / stay"],"answer":["0"]},
+        {"q":"I'll cook dinner if you ___ (do) the shopping.","choices":["do","will do"],"answer":["0"]},
+        {"q":"If she ___ (call), I ___ (tell) you.","choices":["calls / will tell","will call / tell"],"answer":["0"]},
+        {"q":"If it ___ (snow), ___ you (make) a snowman?","choices":["snows / will make","will snow / make"],"answer":["0"]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Побудуй речення",
+      "items":[
+        {"tokens":["go","we","if","it","is","sunny","will"],"answer":"if it is sunny we will go"},
+        {"tokens":["if","you","don't","study","you","won't","pass"],"answer":"if you don't study you won't pass"}
+      ]
+    }
+  ]
+}

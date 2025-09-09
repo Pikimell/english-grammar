@@ -1,0 +1,16 @@
+{
+  "title": "Gerunds & Infinitives — базове вживання",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"to V або Ving",
+      "items":[{"q":"I want ___ (go)","choices":["to go","going"],"answer":["0"]},{"q":"She enjoys ___ (read)","choices":["to read","reading"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"try/stop/remember",
+      "items":[{"q":"Stop ___ (talk)!","answer":["talking"]},{"q":"Remember ___ (lock) the door.","answer":["to lock"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"3 дієслова з to V, 3 — з Ving",
+      "items":[{"q":"Приклади.","keywords":["want","decide","plan","enjoy","avoid","finish"]}]
+    }
+  ]
+}
+

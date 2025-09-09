@@ -1,0 +1,16 @@
+{
+  "title": "Future with “be going to”",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"am/is/are going to",
+      "items":[{"q":"She ___ (visit) her parents this weekend.","choices":["is going to visit","will visit","visits"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав форму",
+      "items":[{"q":"I ___ (start) a new course.","answer":["am going to start"]},{"q":"They ___ (not buy) a car.","answer":["are not going to buy","aren't going to buy"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли вживаємо be going to?",
+      "items":[{"q":"Стисло.","keywords":["plans","intentions","evidence"]}]
+    }
+  ]
+}
+

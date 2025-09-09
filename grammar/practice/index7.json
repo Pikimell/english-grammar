@@ -1,0 +1,55 @@
+{
+  "title": "Future — will, may/might та прислівники ймовірності",
+  "level": "A2-B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери will / may / might",
+      "items":[
+        {"q":"I think it ___ rain tomorrow.","choices":["will","may","might"],"answer":["2","1"]},
+        {"q":"Don't worry, I ___ help you.","choices":["will","may","might"],"answer":["0"]},
+        {"q":"She ___ be late; the traffic is terrible.","choices":["may","will","must"],"answer":["0"]},
+        {"q":"He ___ pass the exam if he studies.","choices":["will","might","may"],"answer":["0","1","2"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Offers/Promises/Decisions (will)",
+      "items":[
+        {"q":"It's cold. I ___ close the window.","choices":["will","am going to"],"answer":["0"]},
+        {"q":"I forgot my wallet. — I ___ pay.","choices":["will","might"],"answer":["0"]}
+      ]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Наріччя ймовірності",
+      "items":[
+        {"q":"He will ___ come (80%).","answer":["probably"]},
+        {"q":"She ___ won't agree (50%).","answer":["maybe","perhaps"]},
+        {"q":"They will ___ arrive on time (95%).","answer":["definitely","certainly"]}
+      ]
+    },
+    {"id":"transform-1","type":"transform","prompt":"Побудуй речення з may/might/will",
+      "items":[
+        {"q":"(50%) He come late.","answer":["he may come late.","he might come late."]},
+        {"q":"(обіцянка) I help you.","answer":["i will help you."]}
+      ]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення",
+      "items":[{"tokens":["will","we","call","you","tomorrow"],"answer":"we will call you tomorrow"},{"tokens":["she","might","not","come"],"answer":"she might not come"}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Додаткові завдання (ймовірність)",
+      "items":[
+        {"q":"They ___ arrive late (20%).","choices":["might","will"],"answer":["0"]},
+        {"q":"I'll ___ call you later (maybe).","choices":["probably","maybe"],"answer":["0","1"]},
+        {"q":"We ___ go to the beach if it's sunny.","choices":["might","will"],"answer":["0","1"]},
+        {"q":"I ___ not come tonight; I'm tired.","choices":["might","will"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще завдання",
+      "items":[
+        {"q":"He ___ help us if he has time.","choices":["will","might"],"answer":["0","1"]},
+        {"q":"It ___ snow tomorrow (low chance).","choices":["might","will"],"answer":["0"]},
+        {"q":"I'll ___ be there by 8 (90%).","choices":["probably","maybe"],"answer":["0"]},
+        {"q":"She ___ call you later (promise).","choices":["will","might"],"answer":["0"]}
+      ]
+    },
+    {"id":"short-1","type":"short","prompt":"Коли вживаємо will?",
+      "items":[{"q":"Ключові випадки.","keywords":["predictions","decisions","offers","promises"]}]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Yes/No Questions",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"order-1","type":"order","prompt":"Побудуй Yes/No question",
+      "items":[{"tokens":["do","you","like","coffee"],"answer":"do you like coffee"}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"do/does/is/are",
+      "items":[{"q":"___ she work on Mondays?","answer":["does"]},{"q":"___ you a student?","answer":["are"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Створи 3 Yes/No питання",
+      "items":[{"q":"Будь-які.","keywords":["do","does","is","are","am"]}]
+    }
+  ]
+}
+

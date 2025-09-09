@@ -1,0 +1,16 @@
+{
+  "title": "Cardinal Numbers — кількісні числівники",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Числівники",
+      "items":[{"q":"15","choices":["fiveteen","fifteen"],"answer":["1"]},{"q":"30","choices":["thirdy","thirty"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Напиши словами",
+      "items":[{"q":"21","answer":["twenty-one","twenty one"]},{"q":"105","answer":["one hundred five","one hundred and five"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Напиши свій номер телефону словами",
+      "items":[{"q":"Без персональних даних — просто формат.","keywords":["zero","oh","double"]}]
+    }
+  ]
+}
+

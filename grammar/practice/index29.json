@@ -1,0 +1,16 @@
+{
+  "title": "Question Tags — розділові запитання",
+  "level": "B1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Додай question tag",
+      "items":[{"q":"You're coming, ___?","choices":["are you","aren't you"],"answer":["1"]},{"q":"She doesn't like tea, ___?","choices":["does she","doesn't she"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Be/do/auxiliary",
+      "items":[{"q":"He is late, ___?","answer":["isn't he"]},{"q":"They went home, ___?","answer":["didn't they"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правила узгодження тегів",
+      "items":[{"q":"Ключові ідеї.","keywords":["positive","negative","same tense","same verb"]}]
+    }
+  ]
+}
+

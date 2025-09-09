@@ -1,0 +1,16 @@
+{
+  "title": "Imperatives — наказовий спосіб",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери наказ/заборону/прохання",
+      "items":[{"q":"___ the door, please.","choices":["Open","Opens"],"answer":["0"]},{"q":"___ smoke here!","choices":["Don't","Doesn't"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Do/Don't + V",
+      "items":[{"q":"___ be late.","answer":["Don't"]},{"q":"___ careful.","answer":["Be"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Створи 3 імперативи",
+      "items":[{"q":"Різні: наказ/прохання/заборона.","keywords":["please","don't","let's"]}]
+    }
+  ]
+}
+

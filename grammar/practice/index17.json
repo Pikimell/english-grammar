@@ -1,0 +1,54 @@
+{
+  "title": "Однина / Множина — Singular / Plural",
+  "level": "A1",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Утвори множину",
+      "items":[
+        {"q":"One child → two ___","choices":["childs","children"],"answer":["1"]},
+        {"q":"One person → two ___","choices":["people","persons"],"answer":["0"]}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Irregular plurals",
+      "items":[{"q":"tooth → ___","choices":["tooths","teeth"],"answer":["1"]},{"q":"woman → ___","choices":["womans","women"],"answer":["1"]},{"q":"mouse → ___","choices":["mouses","mice"],"answer":["1"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Plural rules",
+      "items":[{"q":"One knife → two ___","answer":["knives"]},{"q":"One hero → two ___","answer":["heroes"]},{"q":"One baby → two ___","answer":["babies"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Make plural sentences",
+      "items":[{"tokens":["there","are","two","boxes"],"answer":"there are two boxes"},{"tokens":["these","are","my","children"],"answer":"these are my children"}]
+    },
+    {"id":"short-1","type":"short","prompt":"List 5 irregular plurals",
+      "items":[{"q":"Наприклад.","keywords":["child/children","man/men","woman/women","tooth/teeth","foot/feet"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"More plurals",
+      "items":[{"q":"One leaf → two ___","choices":["leafs","leaves"],"answer":["1"]},{"q":"One cactus → two ___","choices":["cactuses","cacti"],"answer":["1"]},{"q":"One sheep → two ___","choices":["sheeps","sheep"],"answer":["1"]},{"q":"One person → two ___","choices":["people","persons"],"answer")["0"]},{"q":"One child → two ___","choices")["childs","children"],"answer")["1"]},{"q":"One man → two ___","choices")["mans","men"],"answer")["1"]}]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Write the plural",
+      "items":[{"q":"box → ___","answer":["boxes"]},{"q":"photo → ___","answer":["photos"]},{"q":"hero → ___","answer")["heroes"]},{"q":"lady → ___","answer")["ladies"]},{"q":"potato → ___","answer")["potatoes"]}]
+    },
+    {"id":"order-2","type":"order","prompt":"Make a plural sentence",
+      "items":[{"tokens":["those","are","my","keys"],"answer":"those are my keys"}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Finish to 20",
+      "items":[
+        {"q":"One goose → two ___","choices":["gooses","geese"],"answer":["1"]},
+        {"q":"One ox → two ___","choices":["oxes","oxen"],"answer":["1"]},
+        {"q":"One foot → two ___","choices":["foots","feet"],"answer":["1"]},
+        {"q":"One leaf → two ___","choices":["leafs","leaves"],"answer":["1"]},
+        {"q":"One person → two ___","choices":["people","persons"],"answer":["0"]},
+        {"q":"One child → two ___","choices":["childs","children"],"answer":["1"]},
+        {"q":"One woman → two ___","choices":["womans","women"],"answer":["1"]},
+        {"q":"One man → two ___","choices":["mans","men"],"answer":["1"]},
+        {"q":"One mouse → two ___","choices":["mouses","mice"],"answer":["1"]},
+        {"q":"One tooth → two ___","choices":["tooths","teeth"],"answer":["1"]},
+        {"q":"One deer → two ___","choices":["deers","deer"],"answer":["1"]}
+      ]
+    }
+    {"id":"gap-1","type":"gap","prompt":"-s/-es/-ies",
+      "items":[{"q":"One city → two ___","answer":["cities"]},{"q":"One bus → two ___","answer":["buses"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правила утворення множини",
+      "items":[{"q":"Згадай 3 правила.","keywords":["-s","-es","-ies","irregular"]}]
+    }
+  ]
+}

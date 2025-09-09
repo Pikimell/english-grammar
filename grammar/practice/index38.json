@@ -1,0 +1,16 @@
+{
+  "title": "Prepositions of Time — at / on / in",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"at/on/in",
+      "items":[{"q":"___ Monday","choices":["on","in","at"],"answer":["0"]},{"q":"___ the morning","choices":["on","in","at"],"answer":["1"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"Встав прийменник",
+      "items":[{"q":"___ 7 o'clock","answer":["at"]},{"q":"___ July","answer":["in"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 3 речення з at/on/in",
+      "items":[{"q":"Різний час.","keywords":["at","on","in"]}]
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "title": "Adverbs of Frequency — прислівники частоти",
+  "level": "A1-A2",
+  "tasks": [
+    {"id":"order-1","type":"order","prompt":"Порядок слів з adverbs of frequency",
+      "items":[{"tokens":["I","usually","have","breakfast","at","7"],"answer":"i usually have breakfast at 7"}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"always/often/sometimes/rarely/never",
+      "items":[{"q":"She ___ goes to the gym.","answer":["often","usually"]},{"q":"He is ___ late.","answer":["never","rarely"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Правило позиції прислівників",
+      "items":[{"q":"Де стоять?","keywords":["before main verb","after be","frequency"]}]
+    }
+  ]
+}
+

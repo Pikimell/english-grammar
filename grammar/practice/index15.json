@@ -1,0 +1,58 @@
+{
+  "title": "Прості прикметники + порядок прикметників",
+  "level": "A2",
+  "tasks": [
+    {"id":"order-1","type":"order","prompt":"Порядок прикметників (opinion-size-age-color-noun)",
+      "items":[{"tokens":["a","red","beautiful","dress"],"answer":"a beautiful red dress"},{"tokens":["a","small","old","wooden","table"],"answer":"a small old wooden table"}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"-ed/-ing значення",
+      "items":[{"q":"The movie was ___ (bore).","answer":["boring"]},{"q":"I'm ___ (excite).","answer":["excited"]},{"q":"The lecture was ___ (interest).","answer":["interesting"]},{"q":"He felt ___ (tire).","answer":["tired"]}]
+    },
+    {"id":"mcq-1","type":"mcq","prompt":"Вибери правильне",
+      "items":[{"q":"She bought a ___ coat.","choices":["blue nice","nice blue"],"answer":["1"]},{"q":"It's a ___ story.","choices":["boring","bored"],"answer":["0"]},{"q":"We saw a ___ building.","choices":["tall old","old tall"],"answer":["1"]}]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Ступені порівняння базово",
+      "items":[{"q":"smart → ___ (comp.)","choices":["smarter","more smart"],"answer":["0"]},{"q":"beautiful → ___ (superl.)","choices":["the most beautiful","the beautifulest"],"answer":["0"]}]
+    },
+    {"id":"error-1","type":"error","prompt":"Виправ прикметники",
+      "items":[{"q":"a blue nice car","answer":["a nice blue car"]},{"q":"the interestinger book","answer":["the more interesting book"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 4 фрази з прикметниками",
+      "items":[{"q":"У правильному порядку.","keywords":["opinion","size","age","color","material"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Постав прикметник у правильній формі",
+      "items":[{"q":"This task is ___ (difficult) than that one.","answer":["more difficult"]},{"q":"It was the ___ (bad) day ever.","answer":["worst"]},{"q":"He is ___ (funny) person I know.","answer":["the funniest"]},{"q":"This box is ___ (heavy) than that one.","answer")["heavier"]}]
+    },
+    {"id":"order-2","type":"order","prompt":"Ще порядок прикметників",
+      "items":[{"tokens":["a","pair","of","comfortable","black","shoes"],"answer":"a pair of comfortable black shoes"}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"Ще завдання",
+      "items":[
+        {"q":"She is ___ than her sister.","choices":["more tall","taller"],"answer":["1"]},
+        {"q":"This is the ___ movie I've seen.","choices":["most exciting","more exciting"],"answer":["0"]},
+        {"q":"He is ___ (friendly) person in the team.","choices":["the most friendly","the friendliest"],"answer":["1"]},
+        {"q":"Your bag is ___ than mine.","choices":["heavier","more heavy"],"answer":["heavier"]},
+        {"q":"It's a ___ (good) idea.","choices":["better","good"],"answer")["good"]},
+        {"q":"This road is ___ (bad) than that one.","choices")["worse","more bad"],"answer")["worse"]}
+      ]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Заповни ступені",
+      "items":[{"q":"far → ___ (comp.)","answer":["farther","further"]},{"q":"little → ___ (superl.)","answer":["the least"]},{"q":"good → ___ (superl.)","answer":["the best"]},{"q":"bad → ___ (comp.)","answer")["worse"]},{"q":"interesting → ___ (comp.)","answer")["more interesting"]}]
+    },
+    {"id":"error-2","type":"error","prompt":"Виправ помилки",
+      "items":[{"q":"the most funniest joke","answer":["the funniest joke"]},{"q":"more easier","answer")["easier"]},{"q":"gooder than","answer")["better than"]}]
+    },
+    {"id":"short-2","type":"short","prompt":"Додай 3 речення з порівняннями",
+      "items":[{"q":"Будь-які.","keywords":["comparative","superlative"]}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Ще 5 завдань",
+      "items":[
+        {"q":"This test is ___ than the previous one.","choices":["easier","more easy"],"answer":["easier"]},
+        {"q":"He bought the ___ car in the shop.","choices":["cheapest","most cheap"],"answer":["cheapest"]},
+        {"q":"She is ___ (pretty) girl in class.","choices":["the prettiest","the most pretty"],"answer":["the prettiest"]},
+        {"q":"This problem is ___ than that one.","choices":["more complex","complexer"],"answer":["more complex"]},
+        {"q":"The weather today is ___ than yesterday.","choices":["worse","more bad"],"answer":["worse"]}
+      ]
+    }
+  ]
+}

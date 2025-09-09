@@ -1,0 +1,16 @@
+{
+  "title": "Some / Any / Much / Many / A lot of / Few / Little",
+  "level": "A2",
+  "tasks": [
+    {"id":"mcq-1","type":"mcq","prompt":"Обери квантифікатор",
+      "items":[{"q":"There isn't ___ milk.","choices":["many","much"],"answer":["1"]},{"q":"We have ___ friends here.","choices":["a lot of","much"],"answer":["0"]}]
+    },
+    {"id":"gap-1","type":"gap","prompt":"few/little/many/much",
+      "items":[{"q":"Only ___ people came.","answer":["a few","few"]},{"q":"We have ___ time.","answer":["little","a little"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Коротко: злічувані/незлічувані",
+      "items":[{"q":"Приклади.","keywords":["countable","uncountable","many","much","few","little"]}]
+    }
+  ]
+}
+

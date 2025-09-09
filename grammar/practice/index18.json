@@ -1,0 +1,57 @@
+{
+  "title": "Особові займенники — Personal Pronouns",
+  "level": "A1",
+  "tasks": [
+    {"id":"match-1","type":"match","prompt":"Співстав займенник і приклад",
+      "pairs":[
+        {"left":"I","right":"am happy"},
+        {"left":"She","right":"is a doctor"},
+        {"left":"They","right":"are students"}
+      ]
+    },
+    {"id":"mcq-2","type":"mcq","prompt":"Subject vs Object pronouns",
+      "items":[{"q":"___ love pizza. (we)","choices":["We","Us"],"answer":["0"]},{"q":"Can you help ___? (they)","choices":["they","them"],"answer":["1"]},{"q":"I know ___. (she)","choices":["her","she"],"answer":["0"]}]
+    },
+    {"id":"gap-2","type":"gap","prompt":"Постав правильний займенник",
+      "items":[{"q":"___ am happy.","answer":["I"]},{"q":"___ is my brother.","answer":["He"]},{"q":"We like ___. (they)","answer":["them"]}]
+    },
+    {"id":"order-1","type":"order","prompt":"Склади речення",
+      "items":[{"tokens":["she","is","my","sister"],"answer":"she is my sister"},{"tokens":["do","you","know","him"],"answer":"do you know him"}]
+    },
+    {"id":"short-2","type":"short","prompt":"Напиши 4 речення з різними займенниками",
+      "items":[{"q":"Будь-які.","keywords":["I","you","he","she","we","they"]}]
+    },
+    {"id":"mcq-3","type":"mcq","prompt":"More pronouns",
+      "items":[{"q":"___ are from Spain. (they)","choices":["They","Them"],"answer":["0"]},{"q":"Do you know ___? (he)","choices":["he","him"],"answer")["1"]},{"q":"___ is my teacher. (she)","choices")["She","Her"],"answer")["0"]},{"q":"Can you see ___? (we)","choices")["we","us"],"answer")["1"]},{"q":"___ am a student.","choices")["I","Me"],"answer")["0"]},{"q":"This is for ___. (you)","choices")["you","your"],"answer")["0"]}]
+    },
+    {"id":"gap-3","type":"gap","prompt":"Fill in",
+      "items":[{"q":"___ are my friends.","answer":["They"]},{"q":"Give it to ___. (she)","answer")["her"]},{"q":"___ am from Kyiv.","answer")["I"]},{"q":"Do you know ___? (they)","answer")["them"]},{"q":"___ is tall. (he)","answer")["he"]},{"q":"She loves ___. (we)","answer")["us"]}]
+    },
+    {"id":"order-2","type":"order","prompt":"Make sentences",
+      "items":[{"tokens":["they","are","my","friends"],"answer":"they are my friends"},{"tokens":["do","you","know","her","?"],"answer":"do you know her?"}]
+    },
+    {"id":"mcq-4","type":"mcq","prompt":"Finish to 20",
+      "items":[
+        {"q":"___ is from Italy. (he)","choices":["He","Him"],"answer":["0"]},
+        {"q":"Give it to ___. (they)","choices":["they","them"],"answer":["1"]},
+        {"q":"Do you know ___? (she)","choices":["her","she"],"answer":["0"]},
+        {"q":"___ are tired. (we)","choices":["We","Us"],"answer":["0"]},
+        {"q":"I met ___. (he)","choices":["him","he"],"answer":["0"]},
+        {"q":"___ is my sister. (she)","choices":["She","Her"],"answer":["0"]},
+        {"q":"Can you help ___? (me)","choices":["I","me"],"answer":["1"]},
+        {"q":"This is for ___. (you)","choices":["you","your"],"answer":["0"]},
+        {"q":"Do you see ___? (us)","choices":["we","us"],"answer":["1"]},
+        {"q":"He called ___. (them)","choices":["they","them"],"answer":["1"]},
+        {"q":"___ is my friend. (he)","choices":["He","Him"],"answer":["0"]},
+        {"q":"Can you hear ___? (her)","choices":["she","her"],"answer":["1"]},
+        {"q":"This is for ___. (us)","choices":["we","us"],"answer":["1"]}
+      ]
+    }
+    {"id":"gap-1","type":"gap","prompt":"Встав займенник",
+      "items":[{"q":"___ am from Kyiv.","answer":["I"]},{"q":"___ are my friends.","answer":["They"]}]
+    },
+    {"id":"short-1","type":"short","prompt":"Зроби 3 речення з різними займенниками",
+      "items":[{"q":"Будь-які.","keywords":["I","you","he","she","we","they"]}]
+    }
+  ]
+}
