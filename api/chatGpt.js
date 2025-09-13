@@ -2,8 +2,8 @@
 
 // ---- HTTP wrapper -----------------------------------------------------------
 export const getAnswer = async (body) => {
-  const BASE_URL = "https://vq1wtq2d2l.execute-api.us-east-2.amazonaws.com/dev";
-  // const BASE_URL = "http://localhost:3000/dev";
+  // const BASE_URL = "https://vq1wtq2d2l.execute-api.us-east-2.amazonaws.com/dev";
+  const BASE_URL = "http://localhost:3000/dev";
   const url = BASE_URL + "/openai";
 
   const response = await fetch(url, {
@@ -41,6 +41,24 @@ export const generateTask = async (topic, typeQuestion, opts = {}) => {
   }
 };
 
+/**
+ * Генерує HTML-розмітку теоретичного матеріалу (таблиці з правилами та прикладами)
+ * @param {string} topic - назва теми (наприклад: "Present Simple")
+ * @param {object} opts - { language: 'uk' | 'en' }
+ * @returns {Promise<string>} HTML-фрагмент з <table> блоками
+ */
+export const generateTheory = async (topic, opts = {}) => {
+  const body = buildTheoryBody(topic, opts);
+  const raw = await getAnswer(body);
+  // Очікуємо чистий HTML-фрагмент (рядок). Якщо об'єкт — дістанемо content
+  if (typeof raw === "string") return raw;
+  if (raw && typeof raw.content === "string") return raw.content;
+  // Спроба видобути HTML між першими <table ...> ... (на випадок зайвого тексту)
+  const m = String(raw || "").match(/<table[\s\S]*<\/table>/i);
+  if (m) return m[0];
+  throw new Error("Відповідь не містить HTML");
+};
+
 // ---- Prompt builder ---------------------------------------------------------
 function buildBody(topic, typeQuestion, opts = {}) {
   const token = localStorage.getItem("gptToken");
@@ -66,6 +84,62 @@ function buildBody(topic, typeQuestion, opts = {}) {
     ],
     temperature: 0.3,
     max_tokens: 4000,
+  };
+}
+
+function buildTheoryBody(topic, opts = {}) {
+  let token = localStorage.getItem("gptToken");
+  if (!token || token?.length < 10) {
+    console.warn("⚠️ gptToken відсутній у localStorage");
+    token = prompt("Enter Your GPT Token");
+    if (token) localStorage.setItem("gptToken", token);
+  }
+  const model = "gpt-4o-mini";
+  const lang = (opts.language || "uk").toLowerCase();
+
+  const system = `You are an ESL (English as a Second Language) content generator.  
+Create a **detailed study guide in HTML tables** for the following grammar/vocabulary topic:
+
+TOPIC: ${topic}
+LEVEL: A1-C2
+LANGUAGE OF EXPLANATION: English
+ACCENT_COLOR: #00837f
+
+REQUIREMENTS:
+1. Output only valid HTML <table> structures (border="1" cellpadding="1" cellspacing="1" style="width:100%").  
+2. Use clear headers inside tables with <span style="color: #00837f"><strong>…</strong></span>.  
+3. Highlight key grammar points in <strong>bold</strong>.  
+4. Use examples in simple everyday vocabulary, 1–2 per point.  
+5. You may generate ANY number of tables depending on how much detail the topic requires.  
+6. Tables should cover different aspects such as:
+   - Forms (affirmative, negative, questions)  
+   - Usage (rules, functions, signal words, time markers)  
+   - Common mistakes (“Use it right!”)  
+   - Exceptions/irregularities/special cases  
+   - Practical examples or mini-dialogues  
+   - Vocabulary lists (if relevant to the topic)  
+   - Comparison with similar grammar points (if relevant)  
+7. Make the content structured like a mini-textbook chapter:  
+   - Start with a table that introduces the main concept and its basic forms.  
+   - Add extra tables for usage, examples, pitfalls, exceptions, etc.  
+   - End with a summary/revision table.  
+8. Keep everything inside tables, do NOT output free text outside tables.  
+
+GOAL:
+Produce a **ready-to-use study guide** in HTML tables, so that learners can read it as a digital textbook.  
+Be as detailed as possible, but keep the language simple and level-appropriate.  `;
+
+  const user = `Generate the full HTML tables for topic: ${topic}.`;
+
+  return {
+    token,
+    model,
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: user },
+    ],
+    temperature: 0.4,
+    max_tokens: 16384,
   };
 }
 

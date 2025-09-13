@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Генератор теорії та практики</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="container nav">
+      <a class="btn" href="../index.html">← На головну</a>
+    </div>
+
+    <div class="container">
+      <h1>Генератор теорії та практики</h1>
+      <p class="subtitle">Створи розмітку теорії та блоки практики через ChatGPT</p>
+      <hr class="sep" />
+    </div>
+
+    <div class="container">
+      <section aria-labelledby="theory-title">
+        <h2 id="theory-title">Теоретичний матеріал</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 6px;">
+          <label>
+            <span class="muted">Тема</span><br />
+            <input id="topic" type="text" placeholder="Наприклад: Present Simple" style="min-width:280px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;" />
+          </label>
+          <label>
+            <span class="muted">Мова</span><br />
+            <select id="lang" style="padding:6px;border:1px solid #cbd5e1;border-radius:6px;">
+              <option value="uk" selected>Українська</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <button id="btn-theory" type="button" class="btn primary">Згенерувати теорію</button>
+          <button id="btn-copy" type="button" class="btn">Копіювати розмітку</button>
+          <button id="btn-clear" type="button" class="btn">Очистити</button>
+          <span id="theory-status" class="muted" style="margin-left:6px;color:#475569;"></span>
+        </div>
+        <div id="theory-output" style="margin:12px 0;"></div>
+      </section>
+
+      <hr class="sep" />
+
+      <section aria-labelledby="practice-title">
+        <h2 id="practice-title">Практичні завдання</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 6px;">
+          <label>
+            <span class="muted">Тип</span><br />
+            <select id="pr-type" style="padding:6px;border:1px solid #cbd5e1;border-radius:6px;">
+              <option value="mcq">MCQ — вибір відповіді</option>
+              <option value="gap">Gap — пропуски</option>
+              <option value="transform">Transform — перетвори</option>
+              <option value="match">Match — зістав</option>
+              <option value="error">Error — виправ помилки</option>
+              <option value="order">Order — порядок слів</option>
+              <option value="short">Short — короткі відповіді</option>
+              <option value="writing">Writing — міні‑письмо</option>
+            </select>
+          </label>
+          <label>
+            <span class="muted">Кількість</span><br />
+            <input id="pr-count" type="number" min="1" max="20" value="10" style="width:80px;padding:6px;border:1px solid #cbd5e1;border-radius:6px;" />
+          </label>
+          <button id="btn-practice" type="button" class="btn primary">Згенерувати практику</button>
+          <span id="practice-status" class="muted" style="margin-left:6px;color:#475569;"></span>
+        </div>
+        <section id="practice"></section>
+      </section>
+    </div>
+
+    <script src="../assets/js/practice.js"></script>
+    <script type="module" src="../assets/js/theory-page.js"></script>
+  </body>
+  </html>
+
