@@ -49,6 +49,36 @@
       .replace(/\s+/g, " ");
   }
 
+  // Subtle hint toggle: hidden by default, shown on small button click
+  function makeHint(hintText) {
+    const wrap = el("div", { class: "hint-wrap", style: "margin-top:6px;" });
+    const btn = el(
+      "button",
+      {
+        type: "button",
+        class: "hint-toggle",
+        "aria-label": "Показати підказку",
+        title: "Підказка",
+        style:
+          "border:none;background:transparent;color:#94a3b8;cursor:pointer;padding:0;font-size:14px;line-height:1;",
+      },
+      "?"
+    );
+    const box = el(
+      "div",
+      { class: "hint-box muted", style: "display:none;margin-top:6px;color:#475569;" },
+      `Підказка: ${hintText}`
+    );
+    btn.addEventListener("click", () => {
+      const isHidden = box.style.display === "none";
+      box.style.display = isHidden ? "block" : "none";
+      btn.setAttribute("aria-expanded", isHidden ? "true" : "false");
+    });
+    wrap.appendChild(btn);
+    wrap.appendChild(box);
+    return wrap;
+  }
+
   function renderMCQ(container, task) {
     container.appendChild(
       el("h3", {}, task.prompt || "Choose the correct option")
@@ -163,14 +193,7 @@
         );
         row.appendChild(input);
       }
-      if (it.hint)
-        row.appendChild(
-          el(
-            "div",
-            { class: "muted", style: "margin-top:6px;color:#475569;" },
-            `Підказка: ${it.hint}`
-          )
-        );
+      if (it.hint) row.appendChild(makeHint(it.hint));
       items.push({
         row,
         input,
@@ -319,14 +342,7 @@
           "width:100%;max-width:640px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;",
       });
       row.appendChild(input);
-      if (it.hint)
-        row.appendChild(
-          el(
-            "div",
-            { class: "muted", style: "margin-top:6px;color:#475569;" },
-            `Підказка: ${it.hint}`
-          )
-        );
+      if (it.hint) row.appendChild(makeHint(it.hint));
       items.push({
         row,
         input,
@@ -372,14 +388,7 @@
           "width:100%;max-width:640px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;",
       });
       row.appendChild(input);
-      if (it.hint)
-        row.appendChild(
-          el(
-            "div",
-            { class: "muted", style: "margin-top:6px;color:#475569;" },
-            `Підказка: ${it.hint}`
-          )
-        );
+      if (it.hint) row.appendChild(makeHint(it.hint));
       items.push({
         row,
         input,
