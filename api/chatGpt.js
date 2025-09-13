@@ -3,6 +3,7 @@
 // ---- HTTP wrapper -----------------------------------------------------------
 export const getAnswer = async (body) => {
   const BASE_URL = "https://vq1wtq2d2l.execute-api.us-east-2.amazonaws.com/dev";
+  // const BASE_URL = "http://localhost:3000/dev";
   const url = BASE_URL + "/openai";
 
   const response = await fetch(url, {
@@ -43,8 +44,10 @@ export const generateTask = async (topic, typeQuestion, opts = {}) => {
 // ---- Prompt builder ---------------------------------------------------------
 function buildBody(topic, typeQuestion, opts = {}) {
   const token = localStorage.getItem("gptToken");
-  if (!token) {
+  if (!token || token?.length < 10) {
     console.warn("⚠️ gptToken відсутній у localStorage");
+    const token = prompt("Enter Your GPT Token");
+    localStorage.setItem("gptToken", token);
   }
 
   const model = "gpt-4o-mini";

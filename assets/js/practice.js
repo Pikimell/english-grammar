@@ -302,6 +302,15 @@
     container.appendChild(box);
   }
 
+  // Expose minimal public API for dynamic appends
+  window.practice = window.practice || {};
+  window.practice.appendTask = function (task) {
+    const root = ensurePracticeContainer();
+    if (!root || !task) return;
+    const body = root.querySelector('#practice-body') || root;
+    renderTask(body, task);
+  };
+
   async function loadData() {
     const inline = document.getElementById("practice-data");
     if (inline) {
@@ -619,12 +628,19 @@
   function init() {
     const root = ensurePracticeContainer();
     if (!root) return;
+    // Ensure stable inner container so external toolbars are not wiped
+    let body = root.querySelector("#practice-body");
+    if (!body) {
+      body = el("div", { id: "practice-body" });
+      root.appendChild(body);
+    }
     loadData().then((data) => {
       if (!data) {
-        root.innerHTML = '<p class="muted">Практика поки відсутня.</p>';
+        body.innerHTML = '<p class="muted">Практика поки відсутня.</p>';
+        document.dispatchEvent(new CustomEvent("practice:rendered", { detail: { ok: false } }));
         return;
       }
-      root.innerHTML = "";
+      body.innerHTML = "";
       const header = el(
         "div",
         {},
@@ -636,8 +652,9 @@
         ),
         data.title ? el("p", { class: "muted" }, data.title) : null
       );
-      root.appendChild(header);
-      (data.tasks || []).forEach((t) => renderTask(root, t));
+      body.appendChild(header);
+      (data.tasks || []).forEach((t) => renderTask(body, t));
+      document.dispatchEvent(new CustomEvent("practice:rendered", { detail: { ok: true } }));
     });
   }
 
