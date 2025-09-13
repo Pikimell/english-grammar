@@ -1,344 +1,208 @@
 {
-  "title": "Present Simple vs Present Continuous — форма та вживання",
-  "level": "A2-B1",
+  "title": "Present Simple — форма та вживання",
+  "level": "A1",
   "tasks": [
     {
-      "id": "mcq-1",
+      "id": "mcq-ps-1",
       "type": "mcq",
       "prompt": "Обери правильну форму (Present Simple)",
       "items": [
         {
           "q": "He usually ___ the bus to work.",
           "choices": ["take", "takes", "is taking"],
-          "answer": ["1"],
-          "explanation": "Звичка → Present Simple; he/she/it + -s → takes."
-        }
-      ]
-    },
-    {
-      "id": "mcq-2",
-      "type": "mcq",
-      "prompt": "Обери правильну форму (Present Continuous)",
-      "items": [
-        {
-          "q": "Listen! The teacher ___ now.",
-          "choices": ["speaks", "is speaking", "speak"],
-          "answer": ["1"],
-          "explanation": "Signal word now/Listen! → Present Continuous."
-        }
-      ]
-    },
-    {
-      "id": "gap-1",
-      "type": "gap",
-      "prompt": "Заповни пропуски (правильна форма дієслова)",
-      "items": [
-        { "q": "They ___ (not work) on Sundays.", "answer": ["don't work"] },
-        { "q": "She ___ (watch) TV now.", "answer": ["is watching"] },
-        { "q": "The sun ___ (rise) in the east.", "answer": ["rises"] }
-      ]
-    },
-    {
-      "id": "gap-2",
-      "type": "gap",
-      "prompt": "Впиши do/does у питаннях",
-      "items": [
-        { "q": "___ you like sushi?", "answer": ["do"] },
-        { "q": "___ he play football?", "answer": ["does"] }
-      ]
-    },
-    {
-      "id": "transform-1",
-      "type": "transform",
-      "prompt": "Перетвори на заперечення (Present Simple)",
-      "items": [
-        {
-          "q": "She plays tennis.",
-          "answer": ["she doesn't play tennis.", "she does not play tennis."]
-        }
-      ]
-    },
-    {
-      "id": "transform-2",
-      "type": "transform",
-      "prompt": "Постав запитання (Present Simple)",
-      "items": [
-        { "q": "You live in Kyiv.", "answer": ["do you live in kyiv?"] }
-      ]
-    },
-    {
-      "id": "transform-3",
-      "type": "transform",
-      "prompt": "Виправ рутину: заміни на Present Simple",
-      "items": [
-        {
-          "q": "He is going to the gym every day.",
-          "answer": ["he goes to the gym every day."]
-        }
-      ]
-    },
-    {
-      "id": "error-1",
-      "type": "error",
-      "prompt": "Знайди й виправ помилку",
-      "items": [
-        {
-          "q": "I don't never eat meat.",
-          "answer": ["i never eat meat.", "i don't eat meat."],
-          "hint": "Уникай подвійного заперечення."
+          "answer": ["1"]
         },
         {
-          "q": "She don't like coffee.",
-          "answer": ["she doesn't like coffee."]
+          "q": "They ___ coffee in the morning.",
+          "choices": ["have", "haves", "are having"],
+          "answer": ["0"]
         },
         {
-          "q": "Are you listen to me now?",
-          "answer": ["are you listening to me now?"]
+          "q": "My sister ___ TV every evening.",
+          "choices": ["watch", "watches", "is watching"],
+          "answer": ["1"]
+        },
+        {
+          "q": "___ you like pizza?",
+          "choices": ["Do", "Does", "Are"],
+          "answer": ["0"]
+        },
+        {
+          "q": "___ she play tennis on Sundays?",
+          "choices": ["Do", "Does", "Is"],
+          "answer": ["1"]
+        },
+        {
+          "q": "The sun ___ in the east.",
+          "choices": ["rise", "rises", "is rising"],
+          "answer": ["1"]
+        },
+        {
+          "q": "We ___ in Kyiv.",
+          "choices": ["live", "lives", "are living"],
+          "answer": ["0"]
+        },
+        {
+          "q": "He never ___ late.",
+          "choices": ["come", "comes", "is coming"],
+          "answer": ["1"]
+        },
+        {
+          "q": "Cats ___ milk.",
+          "choices": ["like", "likes", "are liking"],
+          "answer": ["0"]
+        },
+        {
+          "q": "My dad ___ a car.",
+          "choices": ["has", "have", "is having"],
+          "answer": ["0"]
         }
       ]
     },
     {
-      "id": "order-1",
-      "type": "order",
-      "prompt": "Склади речення зі слів (Present Simple)",
+      "id": "gap-ps-1",
+      "type": "gap",
+      "prompt": "Заповни пропуски (Present Simple)",
+      "items": [
+        { "q": "They ___ (work) on Sundays.", "answer": ["work"] },
+        { "q": "She ___ (not like) coffee.", "answer": ["doesn't like", "does not like"] },
+        { "q": "He ___ (go) to school by bus.", "answer": ["goes"] },
+        { "q": "We ___ (have) a dog.", "answer": ["have"] },
+        { "q": "The shop ___ (open) at 9.", "answer": ["opens"] },
+        { "q": "My brother ___ (study) English.", "answer": ["studies"] },
+        { "q": "The sun ___ (rise) in the east.", "answer": ["rises"] },
+        { "q": "I ___ (play) tennis on Fridays.", "answer": ["play"] },
+        { "q": "She ___ (be) from Lviv.", "answer": ["is"] },
+        { "q": "He ___ (not work) at weekends.", "answer": ["doesn't work", "does not work"] }
+      ]
+    },
+    {
+      "id": "transform-ps-neg-1",
+      "type": "transform",
+      "prompt": "Перетвори на заперечення (Present Simple, без крапки)",
       "items": [
         {
-          "q": "",
-          "tokens": ["usually", "in", "the", "I", "morning", "drink", "coffee"],
-          "answer": "I usually drink coffee in the morning"
-        }
-      ]
-    },
-    {
-      "id": "order-2",
-      "type": "order",
-      "prompt": "Склади речення зі слів (Present Continuous)",
-      "items": [
+          "q": "She likes coffee.",
+          "hint": "використай doesn't; без крапки",
+          "answer": ["she doesn't like coffee", "she does not like coffee"]
+        },
         {
-          "q": "",
-          "tokens": ["she", "is", "listening", "to", "music", "now"],
-          "answer": "she is listening to music now"
+          "q": "They work on Sundays.",
+          "hint": "don't + V; без крапки",
+          "answer": ["they don't work on sundays", "they do not work on sundays"]
+        },
+        {
+          "q": "He goes to school by bus.",
+          "hint": "doesn't + V; без крапки",
+          "answer": ["he doesn't go to school by bus", "he does not go to school by bus"]
+        },
+        {
+          "q": "We have a dog.",
+          "hint": "don't have; без крапки",
+          "answer": ["we don't have a dog", "we do not have a dog"]
+        },
+        {
+          "q": "The shop opens at 9.",
+          "hint": "doesn't + V; без крапки",
+          "answer": ["the shop doesn't open at 9", "the shop does not open at 9"]
+        },
+        {
+          "q": "My brother studies English.",
+          "hint": "doesn't + V; без крапки",
+          "answer": ["my brother doesn't study english", "my brother does not study english"]
+        },
+        {
+          "q": "I play tennis on Fridays.",
+          "hint": "don't + V; без крапки",
+          "answer": ["i don't play tennis on fridays", "i do not play tennis on fridays"]
+        },
+        {
+          "q": "She is at home.",
+          "hint": "isn't / is not; без крапки",
+          "answer": ["she isn't at home", "she is not at home"]
+        },
+        {
+          "q": "We are students.",
+          "hint": "aren't / are not; без крапки",
+          "answer": ["we aren't students", "we are not students"]
+        },
+        {
+          "q": "I am hungry.",
+          "hint": "am not / i'm not; без крапки",
+          "answer": ["i am not hungry", "i'm not hungry"]
         }
       ]
     },
     {
-      "id": "match-1",
+      "id": "match-ps-1",
       "type": "match",
-      "prompt": "Співстав сигнал-слово з часом",
+      "prompt": "Зістав: дієслово → форма 3-ї особи (he/she/it)",
       "pairs": [
-        { "left": "usually", "right": "Present Simple" },
-        { "left": "always", "right": "Present Simple" },
-        { "left": "now", "right": "Present Continuous" },
-        { "left": "at the moment", "right": "Present Continuous" },
-        { "left": "these days", "right": "Present Continuous" }
+        { "left": "go", "right": "goes" },
+        { "left": "watch", "right": "watches" },
+        { "left": "study", "right": "studies" },
+        { "left": "have", "right": "has" },
+        { "left": "do", "right": "does" },
+        { "left": "play", "right": "plays" },
+        { "left": "read", "right": "reads" },
+        { "left": "finish", "right": "finishes" }
       ]
     },
     {
-      "id": "short-1",
-      "type": "short",
-      "prompt": "Коротка відповідь: Який час використовуємо для звичок і розпорядку?",
-      "items": [
-        {
-          "q": "Вкажи назву часу англійською і ключові слова.",
-          "keywords": ["present simple", "usually", "always", "often"]
-        }
-      ]
-    },
-    {
-      "id": "writing-1",
-      "type": "writing",
-      "prompt": "Напиши 5 речень про свій щоденний розпорядок",
-      "description": "Використай сигнал-слова та зроби одне запитання.",
-      "checklist": [
-        "Використано принаймні 2 signal words (usually/always/sometimes)",
-        "Є одне негативне речення у Present Simple",
-        "Є одне запитання у Present Simple",
-        "Є речення з he/she/it та -s",
-        "Перевірено орфографію та пунктуацію"
-      ]
-    },
-    {
-      "id": "mcq-3",
-      "type": "mcq",
-      "prompt": "Обери правильний час (Simple vs Continuous)",
-      "items": [
-        {
-          "q": "She ___ breakfast at 7 a.m. every day.",
-          "choices": ["is having", "has", "have"],
-          "answer": ["1"],
-          "explanation": "Щоденна рутина → Present Simple (has)."
-        },
-        {
-          "q": "Right now, they ___ a film.",
-          "choices": ["watch", "are watching", "are watch"],
-          "answer": ["1"],
-          "explanation": "now → Present Continuous."
-        },
-        {
-          "q": "Water ___ at 100°C.",
-          "choices": ["boils", "is boiling", "boil"],
-          "answer": ["0"],
-          "explanation": "Загальна істина → Present Simple."
-        },
-        {
-          "q": "Look! The kids ___ in the yard.",
-          "choices": ["play", "are playing", "plays"],
-          "answer": ["1"],
-          "explanation": "Look! → Present Continuous."
-        }
-      ]
-    },
-    {
-      "id": "mcq-4",
-      "type": "mcq",
-      "prompt": "Обери форму дієслова",
-      "items": [
-        {
-          "q": "Do/Does — What time ___ the museum open?",
-          "choices": ["do", "does"],
-          "answer": ["1"],
-          "explanation": "Museum = it → does."
-        },
-        {
-          "q": "Do/Does — ___ they study on weekends?",
-          "choices": ["do", "does"],
-          "answer": ["0"],
-          "explanation": "they → do."
-        }
-      ]
-    },
-    {
-      "id": "gap-3",
-      "type": "gap",
-      "prompt": "Заповни (Simple/Continuous)",
-      "items": [
-        {
-          "q": "We ___ (not go) to school on Sundays.",
-          "answer": ["don't go"]
-        },
-        { "q": "He ___ (not like) tea.", "answer": ["doesn't like"] },
-        { "q": "Be quiet! I ___ (write) an email.", "answer": ["am writing"] },
-        { "q": "She ___ (have) two cats.", "answer": ["has"] }
-      ]
-    },
-    {
-      "id": "transform-4",
-      "type": "transform",
-      "prompt": "Постав у запитання (Present Continuous)",
-      "items": [
-        {
-          "q": "They are doing their homework.",
-          "answer": [
-            "are they doing their homework?",
-            "are they doing their homework"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "transform-5",
-      "type": "transform",
-      "prompt": "Замінити на протилежний час (PC → PS або PS → PC)",
-      "items": [
-        {
-          "q": "He is playing football every Saturday.",
-          "answer": [
-            "he plays football every saturday.",
-            "he plays football every saturday"
-          ]
-        },
-        {
-          "q": "She cooks now.",
-          "answer": ["she is cooking now.", "she is cooking now"]
-        }
-      ]
-    },
-    {
-      "id": "error-2",
+      "id": "error-ps-1",
       "type": "error",
-      "prompt": "Знайди й виправ помилку (Simple/Continuous)",
+      "prompt": "Знайди й виправ помилку (Present Simple, без крапки)",
       "items": [
-        {
-          "q": "She doesn't studies English.",
-          "answer": ["she doesn't study english.", "she doesn't study english"]
-        },
-        {
-          "q": "Do he play tennis?",
-          "answer": ["does he play tennis?", "does he play tennis"]
-        },
-        {
-          "q": "We are go to the cinema now.",
-          "answer": [
-            "we are going to the cinema now.",
-            "we are going to the cinema now"
-          ]
-        },
-        {
-          "q": "I am usually get up at 7.",
-          "answer": ["i usually get up at 7.", "i usually get up at 7"]
-        }
+        { "q": "She don't like tea.", "hint": "doesn't + V", "answer": ["she doesn't like tea", "she does not like tea"] },
+        { "q": "He go to work by car.", "hint": "3-я особа + -s", "answer": ["he goes to work by car"] },
+        { "q": "Do she like music?", "hint": "Does + he/she/it", "answer": ["does she like music"] },
+        { "q": "They doesn't work here.", "hint": "don't + V", "answer": ["they don't work here", "they do not work here"] },
+        { "q": "My brother play football.", "hint": "3-я особа + -s", "answer": ["my brother plays football"] },
+        { "q": "Where you live?", "hint": "Do/Does + subject", "answer": ["where do you live"] },
+        { "q": "He don't has a car.", "hint": "doesn't have", "answer": ["he doesn't have a car", "he does not have a car"] },
+        { "q": "The lesson start at 9.", "hint": "-s в однині", "answer": ["the lesson starts at 9"] },
+        { "q": "We is students.", "hint": "are", "answer": ["we are students"] },
+        { "q": "I amn't hungry.", "hint": "am not", "answer": ["i am not hungry", "i'm not hungry"] }
       ]
     },
     {
-      "id": "order-3",
+      "id": "order-ps-1",
       "type": "order",
-      "prompt": "Склади питальне речення (Present Simple)",
+      "prompt": "Постав слова в правильному порядку (Present Simple)",
       "items": [
-        {
-          "q": "",
-          "tokens": ["do", "often", "you", "go", "to", "the", "gym"],
-          "answer": "do you often go to the gym"
-        }
+        { "q": "Впорядкуй речення", "tokens": ["she", "often", "reads", "books"], "answer": "she often reads books" },
+        { "q": "Впорядкуй речення", "tokens": ["we", "play", "tennis", "on", "fridays"], "answer": "we play tennis on fridays" },
+        { "q": "Впорядкуй речення", "tokens": ["does", "he", "work", "on", "sundays", "?"], "answer": "does he work on sundays ?" },
+        { "q": "Впорядкуй речення", "tokens": ["my", "dad", "has", "a", "car"], "answer": "my dad has a car" },
+        { "q": "Впорядкуй речення", "tokens": ["they", "don't", "eat", "meat"], "answer": "they don't eat meat" },
+        { "q": "Впорядкуй речення", "tokens": ["the", "shop", "opens", "at", "nine"], "answer": "the shop opens at nine" },
+        { "q": "Впорядкуй речення", "tokens": ["where", "do", "you", "live", "?"], "answer": "where do you live ?" },
+        { "q": "Впорядкуй речення", "tokens": ["he", "doesn't", "like", "coffee"], "answer": "he doesn't like coffee" },
+        { "q": "Впорядкуй речення", "tokens": ["i", "always", "get", "up", "at", "seven"], "answer": "i always get up at seven" },
+        { "q": "Впорядкуй речення", "tokens": ["are", "they", "friends"], "answer": "are they friends" }
       ]
     },
     {
-      "id": "order-4",
-      "type": "order",
-      "prompt": "Склади заперечення (Present Continuous)",
-      "items": [
-        {
-          "q": "",
-          "tokens": ["is", "not", "she", "doing", "her", "homework", "now"],
-          "answer": "she is not doing her homework now"
-        }
-      ]
-    },
-    {
-      "id": "match-2",
-      "type": "match",
-      "prompt": "Співстав речення і час",
-      "pairs": [
-        { "left": "He often reads books.", "right": "Present Simple" },
-        { "left": "Look! It is snowing.", "right": "Present Continuous" },
-        { "left": "They play football on Fridays.", "right": "Present Simple" },
-        {
-          "left": "At the moment, I am working.",
-          "right": "Present Continuous"
-        }
-      ]
-    },
-    {
-      "id": "short-2",
+      "id": "short-ps-1",
       "type": "short",
-      "prompt": "Коротка відповідь: Які 3 сигнал-слова для Present Continuous?",
+      "prompt": "Короткі відповіді: Present Simple",
       "items": [
-        {
-          "q": "Вкажи три приклади.",
-          "keywords": ["now", "at the moment", "look", "listen", "these days"]
-        }
+        { "q": "Напиши 2–3 речення про свою щоденну рутину.", "keywords": ["i", "usually", "every"] },
+        { "q": "Опиши звички твоєї сім'ї (3 речення).", "keywords": ["we", "always", "on"] },
+        { "q": "Що ти робиш у вихідні? (2–3 речення)", "keywords": ["i", "on", "weekends"] }
       ]
     },
     {
-      "id": "writing-2",
+      "id": "writing-ps-1",
       "type": "writing",
-      "prompt": "Опиши фото: що люди роблять зараз (5 речень)",
-      "description": "Використай Present Continuous і 1-2 речення у Present Simple про їх звички.",
+      "prompt": "Міні-письмо: Про мій типовий день (Present Simple)",
+      "description": "Напиши 5–7 речень про типовий день, використовуючи прислівники частоти (always/often/sometimes/rarely/never).",
       "checklist": [
-        "Принаймні 4 речення у Present Continuous",
-        "Є 1-2 речення у Present Simple про звички",
-        "Є одне питальне речення",
-        "Використано слова now / at the moment / Look!",
-        "Перевірено -ing форму та порядок слів"
+        "Використав(ла) 3+ прислівники частоти",
+        "Є принаймні 5 речень у Present Simple",
+        "Є 1 запитання в Present Simple",
+        "Без граматичних помилок у -s / do/does",
+        "Описуєш ранкові/денні/вечірні звички"
       ]
     }
   ]
