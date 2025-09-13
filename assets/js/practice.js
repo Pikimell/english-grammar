@@ -267,7 +267,26 @@
   }
 
   function renderTask(container, task) {
-    const box = el("section", { style: "margin: 18px 0 26px;" });
+    const box = el("section", {
+      style: "position:relative;margin:18px 0 26px;",
+      "data-task-id": task && task.id ? String(task.id) : "",
+    });
+    // Subtle remove button (top-right), hidden until hover/focus
+    const removeBtn = el(
+      "button",
+      {
+        type: "button",
+        title: "Видалити завдання",
+        "aria-label": "Видалити завдання",
+        style:
+          "position:absolute;top:6px;right:6px;border:none;background:transparent;color:#94a3b8;cursor:pointer;padding:2px;line-height:1;font-size:14px;opacity:0.6;",
+        onmouseenter: () => (removeBtn.style.opacity = "1"),
+        onmouseleave: () => (removeBtn.style.opacity = "0.6"),
+        onclick: () => box.remove(),
+      },
+      "✕"
+    );
+    box.appendChild(removeBtn);
     if (task.title) box.appendChild(el("h3", {}, task.title));
     switch (task.type) {
       case "mcq":
